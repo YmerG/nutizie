@@ -26,8 +26,15 @@ jobs:
           restore-keys: titres-
       - run: python3 outils/test_collecte.py
       - run: python3 collecte.py
-      - uses: cloudflare/wrangler-action@v3
+      # Cloudflare gratuit ≈ 500 mises en ligne/mois : le passage des 30 min ne publie que s'il y a un article nouveau ou modifié
+      - id: neuf
+        run: |
+          python3 -c "import json,hashlib;d=json.load(open('site/data.json'));print(hashlib.sha1(json.dumps(sorted([a['lien'],a['titre']] for a in d['articles'])).encode()).hexdigest())" > empreinte.txt
+          if [ "$GITHUB_EVENT_NAME" = schedule ] && cmp -s empreinte.txt cache/empreinte.txt; then echo publier=non; else echo publier=oui; fi >> "$GITHUB_OUTPUT"
+      - if: steps.neuf.outputs.publier == 'oui'
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy site --project-name=nutizie --branch=main
+      - run: cp empreinte.txt cache/empreinte.txt   # après la mise en ligne : un échec sera retenté au passage suivant
