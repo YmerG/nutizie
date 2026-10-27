@@ -83,6 +83,10 @@
     if (txt) { t.title = t.textContent; t.textContent = txt; }
   });
 
+  // Raccourcis au clavier : Chrome ne fait pas défiler un lien déjà en partie visible, on le recale entier dans sa ligne
+  var raccourcis = document.querySelector('.raccourcis');
+  if (raccourcis) raccourcis.addEventListener('focusin', function (e) { e.target.scrollIntoView({ inline: 'nearest', block: 'nearest' }); });
+
   // Thème : suit le téléphone, sauf si le visiteur a choisi
   var bouton = document.getElementById('theme');
   function sombre() {

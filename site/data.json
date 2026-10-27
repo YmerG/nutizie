@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-27T14:03:22+00:00",
+ "genere_le": "2026-10-27T14:20:52+00:00",
  "sources": [
   {
    "id": "cni",
@@ -104,9 +104,18 @@
    "lien": "https://www.corsenetinfos.corsica/Stonde-di-Vita-avec-Jean-Francois-Santolini-menuisier-a-Tagliu-Isulacciu_a93277.html",
    "source": "cni",
    "rubrique": "autres",
-   "date": "2026-10-27T14:03:18.026555+00:00",
+   "date": "2026-10-27T14:20:47.301273+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98452821-68659015.jpg?v=1792608478",
    "extrait": "Jean-François Santolini est menuisier à Tagliu Isulacciu depuis une dizaine d’années. Il y a un an il s’est lancé dans les funky fauteuils, des meubles créés à partir de bois abandonnés et…"
+  },
+  {
+   "titre": "\"Vous pouvez vraiment faire évoluer la ville\" : l'idée d'un Bastiais illumine le parc du Fango",
+   "lien": "https://www.corsematin.com/article/environnement/38859423662781/vous-pouvez-vraiment-faire-evoluer-la-ville-lidee-dun-bastiais-illumine-le-parc-du-fango",
+   "source": "cm",
+   "rubrique": "autres",
+   "date": "2026-10-27T14:00:01+00:00",
+   "image": "",
+   "extrait": ""
   },
   {
    "titre": "Projet de loi sur l'autonomie de la Corse : au Sénat, Les Républicains face à un vent de fronde",
@@ -890,15 +899,6 @@
    "date": "2026-10-26T11:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98457748-68662716.jpg?v=1792660407",
    "extrait": "Halloween ne se cantonne plus aux films d’horreur et aux soirées à thème. Cette fête est aussi l’occasion pour les acteurs du patrimoine de diversifier leur offre de visites. À Bastia, l’historienne…"
-  },
-  {
-   "titre": "Emmanuel Macron attendu à Marseille ce lundi pour souligner le \"retour de l'ordre\"",
-   "lien": "https://www.corsematin.com/article/politique/26784114388727/emmanuel-macron-attendu-a-marseille-ce-lundi-pour-souligner-le-retour-de-lordre",
-   "source": "cm",
-   "rubrique": "politique",
-   "date": "2026-10-26T10:52:21+00:00",
-   "image": "",
-   "extrait": ""
   },
   {
    "titre": "Pierre-Antoine d’Orazio, figure de la danse ajaccienne, est décédé",

@@ -437,6 +437,7 @@ def pages_seo(tous, maintenant):
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="icon" href="../icones/icone-192.png" type="image/png">
   <link rel="apple-touch-icon" href="../icones/icone-180.png">
+  <link rel="preload" href="../polices/source-serif-4-gras.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../pages.css">
   <script>try {{ var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; }} catch (e) {{}}</script>
