@@ -442,7 +442,7 @@ def pages_seo(tous, maintenant):
     {nav(dossier, ident)}
   </main>
   <footer class="pied">
-    <p>Les titres, extraits et images appartiennent à leurs éditeurs&nbsp;: chaque article s'ouvre sur le site d'origine. Site indépendant, sans lien avec les médias cités, sans cookie ni mesure d'audience.</p>
+    <p>Les titres, extraits et images appartiennent à leurs éditeurs&nbsp;: chaque article s'ouvre sur le site d'origine. Site indépendant, sans lien avec les médias cités. Statistiques de visite anonymes via Cloudflare Web Analytics, sans cookie ni donnée personnelle.</p>
     <p><a href="../index.html">Toutes les actualités</a> · <a href="../mentions-legales.html">Mentions légales, contact et demande de retrait</a></p>
   </footer>
   <script>document.addEventListener('error', function (e) {{ if (e.target.tagName === 'IMG') e.target.remove(); }}, true);</script>
