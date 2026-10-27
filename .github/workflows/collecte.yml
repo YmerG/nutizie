@@ -1,22 +1,19 @@
-# Toutes les 30 min : collecte des flux, puis publication du dossier site/ sur GitHub Pages (gratuit pour un dépôt public).
+# Toutes les 30 min : collecte des flux, puis publication du dossier site/ sur Cloudflare Pages (nutizie.pages.dev, gratuit).
 name: Collecte des flux
 on:
   schedule:
     - cron: "*/30 * * * *"   # toutes les 30 min (GitHub peut retarder de quelques minutes)
   workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
+  push:
+    branches: [main]         # republie aussitôt après une modification du dépôt
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
-  group: pages
+  group: deploiement
   cancel-in-progress: false   # ne coupe pas un déploiement en cours
 jobs:
   collecte:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploiement.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,8 +26,8 @@ jobs:
           restore-keys: titres-
       - run: python3 outils/test_collecte.py
       - run: python3 collecte.py
-      - uses: actions/upload-pages-artifact@v3
+      - uses: cloudflare/wrangler-action@v3
         with:
-          path: site
-      - id: deploiement
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site --project-name=nutizie --branch=main

@@ -161,25 +161,27 @@ def lire_flux(contenu):
                "image": image_de(item, corps), "extrait": couper(extrait)}
 
 
-def lire(url, maxi=5_000_000):
+def lire(url, maxi=5_000_000, site=""):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=20) as r:
+        if site and not meme_site(r.geturl(), site):
+            raise ValueError("redirection hors du site")
         return r.read(maxi)
 
 
-OG_TITLE = re.compile(r"""<meta\b(?=[^>]*\bproperty=["']og:title["'])[^>]*\bcontent=(["'])(.*?)\1""", re.I | re.S)
+# bornes {0,n} : une page piégée ne peut pas faire tourner l'expression pendant des minutes
+OG_TITLE = re.compile(r"""<meta\b(?=[^>]{0,500}\bproperty=["']og:title["'])[^>]{0,500}\bcontent=(["'])(.{0,1000}?)\1""", re.I | re.S)
+TITLE = re.compile(r"<title[^>]{0,200}>(.{0,1000}?)</title>", re.I | re.S)
 
 
 def titre_html(page, nom_site):
     """Titre d'une page d'article : og:title, sinon <title>, sans le « - Nom du site » final."""
     s = page.decode("utf-8", "replace")
     m = OG_TITLE.search(s)
-    if m:
-        t = m.group(2)
-    else:
-        m = re.search(r"<title[^>]*>(.*?)</title>", s, re.I | re.S)
-        t = m.group(1) if m else ""
-    t = sans_html(t)
+    t = sans_html(m.group(2)) if m else ""
+    if not t:
+        m = TITLE.search(s)
+        t = sans_html(m.group(1)) if m else ""
     return re.sub(r"\s*[-–|]\s*" + re.escape(nom_site) + r"\s*$", "", t, flags=re.I)[:300]
 
 
@@ -194,6 +196,9 @@ def completer_titres(articles, src):
         vus = json.loads(fichier.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         vus = {}
+    if not isinstance(vus, dict):  # cache abîmé : on repart de zéro plutôt que d'arrêter la collecte
+        vus = {}
+    vus = {k: v for k, v in vus.items() if isinstance(v, str) and v}
     lus, panne = 0, False
     for a in articles:
         if a["lien"] in vus:
@@ -205,13 +210,13 @@ def completer_titres(articles, src):
             time.sleep(PAUSE)  # ménage le site : une page à la fois
         lus += 1
         try:
-            t = titre_html(lire(a["lien"], 500_000), src["nom"])
+            t = titre_html(lire(a["lien"], 500_000, src["flux"]), src["nom"])
         except Exception:
-            t = ""
-        if t:
-            vus[a["lien"]] = a["titre"] = t
-        else:
             panne = True  # le site ne répond pas : on n'insiste pas
+            continue
+        if t:
+            a["titre"] = t
+        vus[a["lien"]] = a["titre"]  # page sans titre : on garde celui de l'adresse, sans la redemander
     CACHE.mkdir(exist_ok=True)
     fichier.write_text(json.dumps(vus, ensure_ascii=False, indent=0), encoding="utf-8")
     return lus

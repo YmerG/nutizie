@@ -47,9 +47,14 @@ assert titre_html(b'<meta content="Qu&eacute;bec : l\xe2\x80\x99accession - Jour
 assert titre_html(b"<meta property='og:title' content='Il a dit \"oui\" - JdC'>", "JdC") == 'Il a dit "oui"'
 assert titre_html(b"<title>Football - le derby - JdC</title>", "JdC") == "Football - le derby"  # seul le nom du site est retiré
 assert titre_html(b"<p>rien</p>", "JdC") == ""
+assert titre_html(b'<meta property="og:title" content=""><title>Repli - JdC</title>', "JdC") == "Repli"  # og:title vide
+import time  # noqa: E402
+debut = time.monotonic()
+titre_html(b"<meta property=og:title " * 20_000 + b"<title" * 40_000, "JdC")  # page piégée de 500 Ko
+assert time.monotonic() - debut < 3, "titre_html trop lent sur une page piégée"
 
 appels = []
-def faux_lire(url, maxi=0):
+def faux_lire(url, maxi=0, site=""):
     appels.append(url)
     if url.endswith("/3/c"):
         raise OSError("panne")
@@ -67,6 +72,9 @@ a = arts()
 completer_titres(a, src)
 assert appels == [a[2]["lien"]]  # seconde collecte : a et b viennent du cache, seul c est retenté
 assert [x["titre"] for x in a[:2]] == ["Vrai a", "Vrai b"] and a[3]["titre"] == "slug"
+for abime in ("[]", "null", '{"https://www.ex.corsica/articles/1/a": 7}'):  # cache du mauvais type : pas d'arrêt
+    (collecte.CACHE / "titres-jdc.json").write_text(abime)
+    completer_titres(arts(), src)
 
 from datetime import datetime, timezone  # noqa: E402
 assert date_fr(datetime(2026, 10, 27, 7, 6, tzinfo=timezone.utc)) == "27 oct. 8 h 06"  # pas de « 08 h »
