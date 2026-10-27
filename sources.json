@@ -1,0 +1,20 @@
+{
+  "verifie_le": "2026-10-27",
+  "sources": [
+    {"id": "cni", "nom": "Corse Net Infos", "site": "https://www.corsenetinfos.corsica", "flux": "https://www.corsenetinfos.corsica/xml/syndication.rss", "couleur": "#c2410c"},
+    {"id": "f3", "nom": "France 3 Corse ViaStella", "site": "https://france3-regions.franceinfo.fr/corse", "flux": "https://france3-regions.franceinfo.fr/corse/rss", "couleur": "#2563eb"},
+    {"id": "alta", "nom": "Alta Frequenza", "site": "https://www.alta-frequenza.corsica", "flux": "https://www.alta-frequenza.corsica/feed", "couleur": "#db2777"},
+    {"id": "rcfm", "nom": "ICI RCFM", "site": "https://www.ici.fr/rcfm", "flux": "https://www.ici.fr/rss/rcfm/a-la-une.xml", "couleur": "#7c3aed"},
+    {"id": "oggi", "nom": "Corsica Oggi", "site": "https://www.corsicaoggi.com", "flux": "https://www.corsicaoggi.com/sito/feed/", "couleur": "#0d9488"},
+    {"id": "infurm", "nom": "Corsica Infurmazione", "site": "https://www.corsicainfurmazione.org", "flux": "https://www.corsicainfurmazione.org/feed/", "couleur": "#b45309"},
+    {"id": "paese", "nom": "Télé Paese", "site": "https://stampa-paese.com", "flux": "https://stampa-paese.com/rss.xml", "couleur": "#15803d"},
+    {"id": "univ", "nom": "Università di Corsica", "site": "https://actu.universita.corsica", "flux": "https://actu.universita.corsica/plugins/actu/xml/full_actus.xml", "couleur": "#be123c"},
+    {"id": "isula", "nom": "Assemblée de Corse", "site": "https://www.isula.corsica", "flux": "https://www.isula.corsica/xml/syndication.rss", "couleur": "#475569"},
+    {"id": "cm", "nom": "Corse-Matin", "site": "https://www.corsematin.com", "flux": "https://www.corsematin.com/googlenews.xml", "liens": "^https://www\\.corsematin\\.com/article/(?!francemonde/|sante/)", "couleur": "#0369a1"},
+    {"id": "ln", "nom": "Lingua Nostra", "site": "https://www.linguanostra.com", "flux": "https://www.linguanostra.com/blog/feed/", "couleur": "#4d7c0f"},
+    {"id": "jdc", "nom": "Journal de la Corse", "site": "https://www.journaldelacorse.corsica", "flux": "https://journaldelacorse.corsica/sitemap.xml", "liens": "/articles/\\d+/", "titres_pages": true,"couleur": "#a16207"}
+  ],
+  "sans_flux": [
+    {"nom": "Voce Nustrale", "site": "https://www.voce.pro/actu/", "raison": "le site refuse les lecteurs automatiques, en attente de son accord"}
+  ]
+}

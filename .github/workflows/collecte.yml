@@ -1,0 +1,36 @@
+# Toutes les 30 min : collecte des flux, puis publication du dossier site/ sur GitHub Pages (gratuit pour un dépôt public).
+name: Collecte des flux
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # toutes les 30 min (GitHub peut retarder de quelques minutes)
+  workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false   # ne coupe pas un déploiement en cours
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4   # titres du Journal de la Corse déjà lus : jamais redemandés
+        with:
+          path: cache
+          key: titres-${{ github.run_id }}
+          restore-keys: titres-
+      - run: python3 outils/test_collecte.py
+      - run: python3 collecte.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploiement
+        uses: actions/deploy-pages@v4

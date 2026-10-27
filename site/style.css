@@ -1,0 +1,100 @@
+/* Nutizie · agrégateur d'actualité corse (maquette) */
+:root {
+  --fond: #f4f1ec;
+  --carte: #ffffff;
+  --encre: #1c1917;
+  --doux: #57534e;
+  --ligne: #e2ddd5;
+  --accent: #0b5d7a;   /* bleu de la mer */
+  --maquis: #2f5d3a;
+  --ombre: 0 1px 2px rgba(28, 25, 23, .06), 0 6px 18px rgba(28, 25, 23, .06);
+  --rayon: 14px;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --fond: #0e1417;
+  --carte: #172126;
+  --encre: #ece9e4;
+  --doux: #a9b3b8;
+  --ligne: #26343b;
+  --accent: #6cc3e0;
+  --maquis: #8fc79c;
+  --ombre: none;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #0e1417; --carte: #172126; --encre: #ece9e4; --doux: #a9b3b8; --ligne: #26343b;
+    --accent: #6cc3e0; --maquis: #8fc79c; --ombre: none; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fond); color: var(--encre); font: 400 1rem/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.evitement { position: absolute; left: 1rem; top: -4rem; z-index: 10; padding: .6rem 1rem; border-radius: 8px; background: var(--encre); color: var(--fond); }
+.evitement:focus { top: 1rem; }
+.demo { margin: 0; padding: .3rem 1rem; text-align: center; font-size: .78rem; font-weight: 600; background: #f3c74f; color: #1c1917; }
+
+/* En-tête */
+.entete, .outils, main, .pied { width: min(100% - 2rem, 1320px); margin-inline: auto; }
+.entete { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.4rem 0 .8rem; }
+h1 { margin: 0; font: 700 clamp(2rem, 7vw, 3rem)/1 Georgia, "Times New Roman", serif; letter-spacing: -.02em; }
+h1::after { content: ""; display: block; width: 2.2em; height: 4px; margin-top: .35rem; border-radius: 4px; background: linear-gradient(90deg, var(--maquis) 50%, var(--accent) 50%); }
+.sous-titre { margin: .5rem 0 0; color: var(--doux); font-size: .95rem; }
+.theme { flex: none; display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid var(--ligne); border-radius: 50%; background: var(--carte); color: var(--encre); cursor: pointer; }
+.theme span::before { content: "☾"; font-size: 1.3rem; line-height: 1; }
+:root[data-theme="dark"] .theme span::before { content: "☀"; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .theme span::before { content: "☀"; } }
+html:not(.js) .theme, html:not(.js) .outils { display: none; }
+
+/* Recherche et filtres */
+.outils { display: grid; gap: .7rem; padding-bottom: .4rem; }
+#q { width: 100%; min-height: 48px; padding: .6rem 1rem; border: 1px solid var(--ligne); border-radius: 99px; background: var(--carte); color: var(--encre); font: inherit; }
+#q::placeholder { color: var(--doux); opacity: 1; }
+.filtres { display: flex; gap: .5rem; overflow-x: auto; padding: .2rem .1rem .5rem; scrollbar-width: thin; }
+.filtre { flex: none; display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: .4rem .9rem; border: 1px solid var(--ligne); border-radius: 99px; background: var(--carte); color: var(--encre); font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; }
+.filtre .nb { color: var(--doux); font-weight: 500; font-size: .8rem; }
+.filtre[aria-pressed="true"] { background: var(--encre); border-color: var(--encre); color: var(--fond); }
+.filtre[aria-pressed="true"] .nb { color: inherit; }
+.pastille { flex: none; width: .6rem; height: .6rem; border-radius: 50%; background: var(--c, var(--doux)); }
+@media (min-width: 900px) { .filtres { flex-wrap: wrap; overflow: visible; } }
+
+/* Mosaïque */
+main { padding-bottom: 2rem; }
+main:focus { outline: none; }
+.etat { margin: .4rem 0 .8rem; color: var(--doux); font-size: .9rem; }
+.mosaique { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 1rem; }
+.carte { position: relative; display: flex; flex-direction: column; overflow: hidden; border-radius: var(--rayon); background: var(--carte); box-shadow: var(--ombre); border: 1px solid var(--ligne); }
+.carte:not(:has(img)) { border-top: 4px solid var(--c); }
+.carte img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--ligne); }
+.carte .corps { display: grid; gap: .4rem; padding: .9rem 1rem 1.1rem; }
+.meta { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; margin: 0; color: var(--doux); font-size: .8rem; font-weight: 600; }
+.carte h2 { margin: 0; font-size: 1.05rem; line-height: 1.3; }
+.carte h2 a { color: var(--encre); text-decoration: none; }
+.carte h2 a::after { content: ""; position: absolute; inset: 0; } /* toute la vignette est cliquable */
+.carte:hover h2 a { text-decoration: underline; text-underline-offset: 3px; }
+.carte h2 a:focus-visible { outline: none; }
+.carte:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }
+.extrait { margin: 0; color: var(--doux); font-size: .92rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.js .carte.cachee { display: none; }
+@media (min-width: 934px) {
+  /* l'article le plus récent avec photo, en grand (dès 3 colonnes) */
+  .mosaique { grid-auto-flow: dense; }
+  .carte.une { grid-column: span 2; grid-row: span 2; }
+  .carte.une h2 { font: 700 1.6rem/1.2 Georgia, "Times New Roman", serif; }
+  .carte.une img { aspect-ratio: 16 / 10; }
+  .carte.une .extrait { font-size: 1rem; -webkit-line-clamp: 5; }
+}
+.vide { padding: 2rem 0; text-align: center; color: var(--doux); }
+.plus[hidden] { display: none; }
+.plus { display: block; min-height: 48px; margin: 1.5rem auto 0; padding: .7rem 1.6rem; border: 0; border-radius: 99px; background: var(--accent); color: var(--fond); font: inherit; font-weight: 700; cursor: pointer; }
+
+/* Pied de page */
+.pied { padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--ligne); color: var(--doux); font-size: .9rem; }
+.pied h2 { margin: 1.2rem 0 .4rem; color: var(--encre); font-size: 1rem; }
+.pied ul { margin: 0; padding-left: 1.2rem; }
+.pied li { margin: .25rem 0; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nutizie · l'actualité corse en un coup d'œil</title>
+  <meta name="description" content="Les derniers articles des médias corses réunis sur une seule page : Corse Net Infos, France 3 Corse ViaStella, Alta Frequenza, ICI RCFM et d'autres. Chaque titre mène à l'article d'origine.">
+  <!-- Maquette de démonstration : ne pas indexer -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller aux articles</a>
+  <p class="demo">Maquette de démonstration · site non officiel</p>
+
+  <header class="entete">
+    <div>
+      <h1>Nutizie</h1>
+      <p class="sous-titre">L'actualité de la Corse, réunie depuis ses médias</p>
+    </div>
+    <button type="button" class="theme" id="theme" aria-label="Thème sombre" title="Changer de thème"><span aria-hidden="true"></span></button>
+  </header>
+
+  <div class="outils">
+    <label class="vh" for="q">Rechercher dans les titres et les extraits</label>
+    <input id="q" type="search" placeholder="Rechercher&nbsp;: Bastia, autonomie, Sporting…" autocomplete="off">
+    <div class="filtres" role="group" aria-label="Filtrer par source">
+      <button type="button" class="filtre" data-source="" aria-pressed="true">Toutes <span class="nb"><!--NB--></span></button>
+      <!--FILTRES-->
+    </div>
+  </div>
+
+  <main id="contenu" tabindex="-1">
+    <p class="etat" id="etat" role="status"><!--NB--> articles</p>
+    <div class="mosaique">
+<!--ARTICLES-->
+    </div>
+    <p class="vide" id="vide" hidden>Aucun article ne correspond à votre recherche.</p>
+    <button type="button" class="plus" id="plus" hidden>Afficher plus d'articles</button>
+  </main>
+
+  <footer class="pied">
+    <p>Dernière collecte le <!--MAJ-->. Les titres, extraits et images appartiennent à leurs éditeurs&nbsp;: chaque article s'ouvre sur le site d'origine.</p>
+    <h2>Sources</h2>
+    <ul><!--SOURCES--></ul>
+    <h2>Pas encore réunis ici</h2>
+    <ul><!--SANS_FLUX--></ul>
+    <p><b>Maquette de démonstration</b>, réalisée sans les médias cités. Aucun compte, aucun cookie, aucune mesure d'audience : seul votre choix de thème est gardé sur votre appareil.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
