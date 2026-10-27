@@ -1,0 +1,10 @@
+name: analytics-setup
+on: workflow_dispatch
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/rum/site_info" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" -H "Content-Type: application/json" \
+            -d '{"host":"nutizie.pages.dev","auto_install":false}' | jq '{success, errors, tag: .result.site_tag, token: .result.site_token}'
