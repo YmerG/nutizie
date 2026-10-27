@@ -94,6 +94,18 @@ main:focus { outline: none; }
 .plus[hidden] { display: none; }
 .plus { display: block; min-height: 48px; margin: 1.5rem auto 0; padding: .7rem 1.6rem; border: 0; border-radius: 99px; background: var(--accent); color: var(--fond); font: inherit; font-weight: 700; cursor: pointer; }
 
+/* Raccourcis vers les pages rubrique et ville, au-dessus des Faits divers ; défilent à l'horizontale s'ils débordent */
+.raccourcis { display: grid; margin: 0 0 .4rem; font-size: .9rem; }
+.raccourcis-ligne { display: flex; align-items: baseline; gap: .5rem; overflow-x: auto; white-space: nowrap; scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 1.5rem), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 1.5rem), transparent); }
+.raccourcis-ligne::-webkit-scrollbar { display: none; }
+.raccourcis h2 { position: sticky; left: 0; z-index: 1; flex: none; width: 5.6rem; margin: 0; background: var(--fond); box-shadow: .5rem 0 0 var(--fond);color: var(--doux); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.raccourcis ul { display: flex; margin: 0; padding: 0 1.5rem 0 0; list-style: none; }
+.raccourcis li + li::before { content: "·"; color: var(--doux); }
+.raccourcis a { display: inline-block; padding: .3rem .4rem; color: var(--encre); font-weight: 600; text-decoration: none; }
+.raccourcis li:first-child a { padding-left: 0; }
+.raccourcis a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
 /* Sections : Faits divers en tête, À la une, toutes les actualités */
 .bloc { margin: 1rem 0 2.2rem; }
 .bloc h2 { margin: 0 0 .8rem; font: 700 clamp(1.35rem, 4.5vw, 1.7rem)/1.2 Georgia, "Times New Roman", serif; }

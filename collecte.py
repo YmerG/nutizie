@@ -365,21 +365,38 @@ def bloc_une(tous, depuis, n=4):
     return f'<section class="bloc" aria-labelledby="t-une"><h2 id="t-une">À la une</h2><div class="sujets">{html_sujets}</div></section>'
 
 
-# Pages de référencement (une par rubrique, une par ville) : l'accueil n'est pas modifié et ne les relie pas.
+# Pages de référencement (une par rubrique, une par ville), reliées depuis la ligne de raccourcis de l'accueil.
 def de(nom):
     return ("d'" if normal(nom[0]) in "aeiouy" else "de ") + nom
 
 
-def pages_seo(tous, maintenant):
-    """Écrit site/rubrique/*.html, site/ville/*.html et site/sitemap.xml. Retourne la liste des adresses publiques."""
+def liste_pages(tous):
+    """[(dossier, ident, réglages de pages.json, articles)] pour chaque rubrique puis chaque ville."""
     conf = json.loads((ICI / "pages.json").read_text(encoding="utf-8"))
-    base = conf["site"].rstrip("/")
     pages = [("rubrique", k, {**v, "nom": NOMS_RUBRIQUES[k]}, [t for t in tous if t[0]["rubrique"] == k])
              for k, v in conf["rubriques"].items()]
     for v in conf["villes"]:
         motif = re.compile(v["motif"])
         cite = [t for t in tous if motif.search(normal(f'{t[0]["titre"]} {t[0]["extrait"]} {urlparse(t[0]["lien"]).path.replace("-", " ")}'))]
         pages.append(("ville", v["id"], {**v, "h1": f'Actualité {de(v["nom"])}'}, cite))
+    return conf["site"].rstrip("/"), pages
+
+
+def raccourcis(tous):
+    """Ligne de liens en haut de l'accueil, vers les pages rubrique et ville qui ont des articles."""
+    _, pages = liste_pages(tous)
+    noms = {"autres": "Société"}  # « Autres » ne dit rien hors des filtres
+
+    def ligne(dossier, titre):
+        liens = "".join(f'<li><a href="{dossier}/{k}.html">{html.escape(noms.get(k, p["nom"]))}</a></li>'
+                        for d, k, p, articles in pages if d == dossier and articles)
+        return f'<div class="raccourcis-ligne"><h2>{titre}</h2><ul>{liens}</ul></div>' if liens else ""
+    return f'<nav class="raccourcis" aria-label="Rubriques et villes">{ligne("rubrique", "Rubriques")}{ligne("ville", "Villes")}</nav>'
+
+
+def pages_seo(tous, maintenant):
+    """Écrit site/rubrique/*.html, site/ville/*.html et site/sitemap.xml. Retourne la liste des adresses publiques."""
+    base, pages = liste_pages(tous)
     e = html.escape
 
     def nav(dossier, ident):
@@ -499,6 +516,7 @@ def main():
     liste_sans = "".join(f'<li><a href="{e(s["site"])}" rel="noopener">{e(s["nom"])}</a> <small>({e(s["raison"])})</small></li>'
                          for s in conf.get("sans_flux", []))
     remplacements = {
+        "<!--RACCOURCIS-->": raccourcis(tous),
         "<!--FAITS_DIVERS-->": bloc_faits_divers(tous),
         "<!--UNE-->": bloc_une(tous, maintenant - timedelta(hours=48)),
         "<!--RUBRIQUES-->": rubriques,

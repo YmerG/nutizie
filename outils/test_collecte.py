@@ -139,4 +139,10 @@ plan = (collecte.SORTIE / "sitemap.xml").read_text()
 assert plan.count("<loc>") == len(adresses) == 4 and "<lastmod>2026-10-27T09:00:00+00:00</lastmod>" in plan
 titres = [re.search(r"<title>(.*?)</title>", f.read_text()).group(1) for f in collecte.SORTIE.glob("*/*.html")]
 assert len(titres) == 15 and len(set(titres)) == 15
-print("OK : lecteur de flux, rubriques, sujets, pages par rubrique et par ville")
+
+# Raccourcis de l'accueil : seulement les pages qui ont des articles
+from collecte import raccourcis  # noqa: E402
+r = raccourcis(tous)
+assert 'href="rubrique/faits-divers.html"' in r and 'href="ville/ajaccio.html"' in r
+assert "sport.html" not in r and "bastia.html" not in r
+print("OK : lecteur de flux, rubriques, sujets, pages par rubrique et par ville, raccourcis")

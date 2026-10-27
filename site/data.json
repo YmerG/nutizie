@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-27T13:39:06+00:00",
+ "genere_le": "2026-10-27T14:03:22+00:00",
  "sources": [
   {
    "id": "cni",
@@ -104,9 +104,27 @@
    "lien": "https://www.corsenetinfos.corsica/Stonde-di-Vita-avec-Jean-Francois-Santolini-menuisier-a-Tagliu-Isulacciu_a93277.html",
    "source": "cni",
    "rubrique": "autres",
-   "date": "2026-10-27T13:39:01.151859+00:00",
+   "date": "2026-10-27T14:03:18.026555+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98452821-68659015.jpg?v=1792608478",
    "extrait": "Jean-François Santolini est menuisier à Tagliu Isulacciu depuis une dizaine d’années. Il y a un an il s’est lancé dans les funky fauteuils, des meubles créés à partir de bois abandonnés et…"
+  },
+  {
+   "titre": "Projet de loi sur l'autonomie de la Corse : au Sénat, Les Républicains face à un vent de fronde",
+   "lien": "https://www.corsematin.com/article/politique/10077591216250/projet-de-loi-sur-lautonomie-de-la-corse-au-senat-les-republicains-face-a-un-vent-de-fronde",
+   "source": "cm",
+   "rubrique": "politique",
+   "date": "2026-10-27T13:53:39+00:00",
+   "image": "",
+   "extrait": ""
+  },
+  {
+   "titre": "Judo : deux médailles d'argent pour les jeunes du Dojo Club de Bastelicaccia à Gap",
+   "lien": "https://www.corsematin.com/article/sports/12066074063934/judo-deux-medailles-dargent-pour-les-jeunes-du-dojo-club-de-bastelicaccia-a-gap",
+   "source": "cm",
+   "rubrique": "sport",
+   "date": "2026-10-27T13:45:01+00:00",
+   "image": "",
+   "extrait": ""
   },
   {
    "titre": "Festival de la BD d'Ajaccio : Napoléon et les Schtroumpfs se partagent l'affiche",
@@ -883,15 +901,6 @@
    "extrait": ""
   },
   {
-   "titre": "Ajaccio : Pierre-Antoine d'Orazio, une vie consacrée à la danse et à sa transmission, s'est éteint",
-   "lien": "https://www.corsematin.com/article/societe/14987873559150/ajaccio-pierre-antoine-dorazio-une-vie-consacree-a-la-danse-et-a-sa-transmission-sest-eteint",
-   "source": "cm",
-   "rubrique": "culture",
-   "date": "2026-10-26T10:38:58+00:00",
-   "image": "",
-   "extrait": ""
-  },
-  {
    "titre": "Pierre-Antoine d’Orazio, figure de la danse ajaccienne, est décédé",
    "lien": "https://www.ici.fr/corse/pierre-antoine-d-orazio-figure-de-la-danse-ajaccienne-est-decede-6650452?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
@@ -907,15 +916,6 @@
    "rubrique": "culture",
    "date": "2026-10-26T10:06:51+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Boulevard-Lantivy-Ajaccio-Alta-768x511.jpg",
-   "extrait": ""
-  },
-  {
-   "titre": "À Sagone, Sant'Appianu prépare l'ouverture de son centre d'interprétation",
-   "lien": "https://www.corsematin.com/article/culture-loisirs/1743921293087414/a-sagone-santappianu-prepare-louverture-de-son-centre-dinterpretation",
-   "source": "cm",
-   "rubrique": "culture",
-   "date": "2026-10-26T10:00:01+00:00",
-   "image": "",
    "extrait": ""
   },
   {
