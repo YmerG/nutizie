@@ -1,0 +1,64 @@
+{
+  "site": "https://nutizie.pages.dev",
+  "rubriques": {
+    "faits-divers": {
+      "h1": "Faits divers en Corse",
+      "description": "Accidents, incendies, interventions des secours et affaires de justice en Corse : les derniers faits divers publiés par les médias de l'île, réunis sur une page.",
+      "intro": "Accidents de la route, feux de forêt, sauvetages en mer ou en montagne, affaires jugées à Ajaccio et à Bastia : voici les derniers faits divers publiés par les médias corses. La liste se met à jour automatiquement environ toutes les 30 minutes, et chaque titre ouvre l'article complet sur le site de son média."
+    },
+    "sport": {
+      "h1": "Sport en Corse",
+      "description": "Football, rugby, volley, trail, voile… Les derniers articles de sport des médias corses : SC Bastia, AC Ajaccio, GFCA et tous les clubs de l'île.",
+      "intro": "Le football tient une grande place en Corse, avec le SC Bastia, l'AC Ajaccio et le GFCA, mais l'île vit aussi au rythme du volley, du rugby, du trail, de la voile et du sport automobile. Cette page réunit les derniers articles de sport publiés par les médias corses. Chaque titre mène à l'article d'origine."
+    },
+    "politique": {
+      "h1": "Politique en Corse",
+      "description": "Assemblée de Corse, Conseil exécutif, autonomie, vie municipale : les derniers articles politiques des médias corses, réunis sur une page.",
+      "intro": "La Corse a un statut particulier : elle est administrée par la Collectivité de Corse, avec son Assemblée et son Conseil exécutif, qui siègent à Ajaccio. Débats sur l'autonomie, décisions de l'Assemblée, vie des communes : cette page réunit les derniers articles politiques des médias de l'île."
+    },
+    "culture": {
+      "h1": "Culture en Corse",
+      "description": "Festivals, concerts, polyphonies, patrimoine, livres et cinéma : l'actualité culturelle corse publiée par les médias de l'île.",
+      "intro": "Polyphonies, festivals, théâtre, cinéma, livres, patrimoine des villages : la vie culturelle corse est riche toute l'année. Cette page réunit les derniers articles culturels des médias de l'île, avec un lien vers chaque article d'origine."
+    },
+    "langue": {
+      "h1": "Langue corse",
+      "description": "Enseignement, bilinguisme, co-officialité, initiatives pour transmettre u corsu : l'actualité de la langue corse dans les médias de l'île.",
+      "intro": "La langue corse, u corsu, est proche des parlers toscans et s'enseigne de l'école jusqu'à l'Università di Corsica. Enseignement bilingue et immersif, débat sur la co-officialité, initiatives des associations : cette page réunit les derniers articles qui parlent de la langue corse."
+    },
+    "autres": {
+      "h1": "Société, économie et vie quotidienne en Corse",
+      "description": "Économie, transports, environnement, santé, éducation : les autres sujets de l'actualité corse, réunis depuis les médias de l'île.",
+      "intro": "Économie, transports, environnement, santé, éducation, météo : les sujets qui n'entrent pas dans les autres rubriques se trouvent ici. Le classement se fait automatiquement d'après les mots des titres, et chaque article s'ouvre sur le site de son média."
+    }
+  },
+  "villes": [
+    {"id": "ajaccio", "nom": "Ajaccio", "motif": "\\bajacci|\\baiacciu\\b",
+     "description": "Les derniers articles des médias corses qui parlent d'Ajaccio : vie municipale, faits divers, sport, culture. Chaque titre mène à l'article d'origine.",
+     "intro": "Ajaccio est la plus grande ville de Corse, préfecture de la Corse-du-Sud et siège de la Collectivité de Corse. Ville natale de Napoléon Bonaparte, elle s'étend au bord d'un golfe, face aux îles Sanguinaires. Cette page réunit les derniers articles des médias corses qui parlent d'Ajaccio."},
+    {"id": "bastia", "nom": "Bastia", "motif": "\\bbastia",
+     "description": "Les derniers articles des médias corses qui parlent de Bastia : vie de la ville, faits divers, SC Bastia, culture. Chaque titre mène à l'article d'origine.",
+     "intro": "Bastia, deuxième ville de Corse et préfecture de la Haute-Corse, est un grand port tourné vers le continent et l'Italie. Sa citadelle, son Vieux-Port et le SC Bastia font partie de son identité. Voici les derniers articles des médias corses qui citent Bastia."},
+    {"id": "porto-vecchio", "nom": "Porto-Vecchio", "motif": "porto[- ]?vecchio|porti[- ]?vechju",
+     "description": "Les derniers articles des médias corses qui parlent de Porto-Vecchio et de l'extrême sud de la Corse, réunis sur une page.",
+     "intro": "Porto-Vecchio, dans l'extrême sud de la Corse, est réputée pour son golfe, ses marais salants et ses plages, comme Palombaggia et Santa Giulia. Voici les derniers articles des médias corses qui parlent de Porto-Vecchio et de sa région."},
+    {"id": "corte", "nom": "Corte", "motif": "\\bcorte\\b|\\bcorti\\b|\\bcortenais",
+     "description": "Les derniers articles des médias corses qui parlent de Corte, ville universitaire au centre de l'île, réunis sur une page.",
+     "intro": "Au cœur de l'île, Corte fut la capitale de la Corse indépendante de Pascal Paoli au XVIIIe siècle. Elle accueille aujourd'hui l'Università di Corsica et reste une porte d'entrée vers les gorges de la Restonica. Voici les derniers articles qui parlent de Corte."},
+    {"id": "calvi", "nom": "Calvi", "motif": "\\bcalvi\\b",
+     "description": "Les derniers articles des médias corses qui parlent de Calvi et de la Balagne, réunis sur une page.",
+     "intro": "Calvi, en Balagne, est dominée par sa citadelle génoise face à la mer. La ville est connue pour ses festivals, comme le Calvi Jazz Festival et Calvi on the Rocks. Voici les derniers articles des médias corses qui parlent de Calvi."},
+    {"id": "bonifacio", "nom": "Bonifacio", "motif": "\\bbonifacio|\\bbunifaziu",
+     "description": "Les derniers articles des médias corses qui parlent de Bonifacio, à la pointe sud de la Corse, réunis sur une page.",
+     "intro": "Bonifacio, à la pointe sud de la Corse, est bâtie sur des falaises de calcaire blanc, face à la Sardaigne, de l'autre côté des Bouches de Bonifacio. Voici les derniers articles des médias corses qui parlent de Bonifacio."},
+    {"id": "ile-rousse", "nom": "L'Île-Rousse", "motif": "ile[- ]rousse|isula rossa",
+     "description": "Les derniers articles des médias corses qui parlent de L'Île-Rousse et de la Balagne, réunis sur une page.",
+     "intro": "L'Île-Rousse, en Balagne, a été fondée au XVIIIe siècle à l'initiative de Pascal Paoli, qui voulait doter la Corse indépendante d'un port. Elle doit son nom aux rochers rouges de l'île de la Pietra. Voici les derniers articles qui parlent de L'Île-Rousse."},
+    {"id": "propriano", "nom": "Propriano", "motif": "\\bpropriano|\\bprupia\\b",
+     "description": "Les derniers articles des médias corses qui parlent de Propriano et du golfe du Valinco, réunis sur une page.",
+     "intro": "Propriano, au fond du golfe du Valinco, est un port de la Corse-du-Sud tourné vers la plaisance et les liaisons maritimes. Voici les derniers articles des médias corses qui parlent de Propriano et du Valinco."},
+    {"id": "sartene", "nom": "Sartène", "motif": "\\bsartene|\\bsarte\\b|\\bsartenais",
+     "description": "Les derniers articles des médias corses qui parlent de Sartène et du Sartenais, réunis sur une page.",
+     "intro": "Sartène, ville de granit du sud de la Corse, est connue pour sa procession du Catenacciu, le Vendredi saint, et pour ses vins. Voici les derniers articles des médias corses qui parlent de Sartène et du Sartenais."}
+  ]
+}

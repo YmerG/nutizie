@@ -117,4 +117,26 @@ c = carte({"titre": "<b>", "lien": "https://ex.corsica/a?x=1&y=2", "date": None,
            "extrait": "", "rubrique": "faits-divers"}, {"id": "cni", "nom": "CNI", "couleur": "#000"})
 assert 'data-rubrique="faits-divers"' in c and '<span class="rub">Faits divers</span>' in c and 'loading="lazy"' in c
 assert "<h3><a href=\"https://ex.corsica/a?x=1&amp;y=2\"" in c and "&lt;b&gt;" in c
-print("OK : lecteur de flux, rubriques, sujets")
+
+# Pages par rubrique et par ville : schema.org lisible, page vide non indexée et absente du plan, titres uniques
+import json, re  # noqa: E401,E402
+from collecte import pages_seo, de  # noqa: E402
+assert de("Ajaccio") == "d'Ajaccio" and de("Bastia") == "de Bastia" and de("L'Île-Rousse") == "de L'Île-Rousse"
+collecte.SORTIE = Path(tempfile.mkdtemp())
+src = {"id": "cni", "nom": "CNI", "couleur": "#000"}
+quand = datetime(2026, 10, 27, 9, 0, tzinfo=timezone.utc)
+tous = [({"titre": "Ajaccio : un incendie </script><b>", "lien": "https://ex.corsica/a", "date": quand, "image": "",
+          "extrait": "", "rubrique": "faits-divers"}, src)]
+adresses = pages_seo(tous, quand)
+assert "https://nutizie.pages.dev/rubrique/faits-divers" in adresses and "https://nutizie.pages.dev/ville/ajaccio" in adresses
+assert "https://nutizie.pages.dev/ville/bastia" not in adresses and "https://nutizie.pages.dev/rubrique/sport" not in adresses
+assert "noindex" in (collecte.SORTIE / "ville/bastia.html").read_text() and "noindex" not in (collecte.SORTIE / "ville/ajaccio.html").read_text()
+page = (collecte.SORTIE / "ville/ajaccio.html").read_text()
+ld = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', page, re.S).group(1))
+assert ld["@type"] == "CollectionPage" and ld["about"]["name"] == "Ajaccio" and ld["mainEntity"]["itemListElement"][0]["url"] == "https://ex.corsica/a"
+assert "&lt;b&gt;" in page  # titre échappé dans la page
+plan = (collecte.SORTIE / "sitemap.xml").read_text()
+assert plan.count("<loc>") == len(adresses) == 4 and "<lastmod>2026-10-27T09:00:00+00:00</lastmod>" in plan
+titres = [re.search(r"<title>(.*?)</title>", f.read_text()).group(1) for f in collecte.SORTIE.glob("*/*.html")]
+assert len(titres) == 15 and len(set(titres)) == 15
+print("OK : lecteur de flux, rubriques, sujets, pages par rubrique et par ville")

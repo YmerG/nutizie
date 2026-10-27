@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-27T13:03:46+00:00",
+ "genere_le": "2026-10-27T13:32:04+00:00",
  "sources": [
   {
    "id": "cni",
@@ -104,9 +104,18 @@
    "lien": "https://www.corsenetinfos.corsica/Stonde-di-Vita-avec-Jean-Francois-Santolini-menuisier-a-Tagliu-Isulacciu_a93277.html",
    "source": "cni",
    "rubrique": "autres",
-   "date": "2026-10-27T13:03:41.776331+00:00",
+   "date": "2026-10-27T13:32:00.230741+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98452821-68659015.jpg?v=1792608478",
    "extrait": "Jean-François Santolini est menuisier à Tagliu Isulacciu depuis une dizaine d’années. Il y a un an il s’est lancé dans les funky fauteuils, des meubles créés à partir de bois abandonnés et…"
+  },
+  {
+   "titre": "Festival de la BD d'Ajaccio : Napoléon et les Schtroumpfs se partagent l'affiche",
+   "lien": "https://www.corsematin.com/article/culture-loisirs/69084605551257/festival-de-la-bd-dajaccio-napoleon-et-les-schtroumpfs-se-partagent-laffiche",
+   "source": "cm",
+   "rubrique": "culture",
+   "date": "2026-10-27T13:00:20+00:00",
+   "image": "",
+   "extrait": ""
   },
   {
    "titre": "Rejet du texte sur l'autonomie de la Corse au Sénat : \"Le gouvernement continuera à dialoguer\", assure la ministre Françoise Gatel",
@@ -953,15 +962,6 @@
    "date": "2026-10-26T08:03:45+00:00",
    "image": "",
    "extrait": "En Balagne, le garage solidaire de Calvi, porté par l’association SOLIDERIA, entend faciliter l’accès à la mobilité des personnes aux revenus modestes."
-  },
-  {
-   "titre": "Qui sera sacré ballon d'or 2026 : retrouvez les listes des nommé(e)s",
-   "lien": "https://www.corsematin.com/article/sports/12866206368143/qui-sera-sacre-ballon-dor-2026-retrouvez-les-listes-des-nomme-e-s",
-   "source": "cm",
-   "rubrique": "sport",
-   "date": "2026-10-26T07:04:22+00:00",
-   "image": "",
-   "extrait": ""
   },
   {
    "titre": "Autonomie de la Corse : le Sénat, divisé, à la recherche d'une \"voie de passage\"",

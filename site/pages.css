@@ -1,0 +1,12 @@
+/* Nutizie · pages par rubrique et par ville (l'accueil n'utilise pas ce fichier) */
+.liste { padding-bottom: 2rem; }
+.liste h1 { margin: 1rem 0 .6rem; font-size: clamp(1.7rem, 6vw, 2.5rem); }
+.liste h1::after { display: none; }
+.liste .mosaique { align-items: start; } /* une vignette sans photo garde sa hauteur, pas de grand cadre vide */
+.intro { max-width: 68ch; margin: 0 0 .8rem; font-size: 1.05rem; }
+.autres-pages { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--ligne); }
+.autres-pages h2 { margin: 1rem 0 .6rem; font: 700 1.2rem/1.2 Georgia, "Times New Roman", serif; }
+.autres-pages ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.autres-pages a { display: inline-flex; align-items: center; min-height: 44px; padding: .4rem .95rem; border: 1px solid var(--ligne); border-radius: 99px; background: var(--carte); color: var(--encre); font-weight: 600; font-size: .92rem; text-decoration: none; }
+.autres-pages a:hover { border-color: var(--accent); }
+.autres-pages a[aria-current="page"] { background: var(--encre); border-color: var(--encre); color: var(--fond); }

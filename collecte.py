@@ -365,6 +365,102 @@ def bloc_une(tous, depuis, n=4):
     return f'<section class="bloc" aria-labelledby="t-une"><h2 id="t-une">À la une</h2><div class="sujets">{html_sujets}</div></section>'
 
 
+# Pages de référencement (une par rubrique, une par ville) : l'accueil n'est pas modifié et ne les relie pas.
+def de(nom):
+    return ("d'" if normal(nom[0]) in "aeiouy" else "de ") + nom
+
+
+def pages_seo(tous, maintenant):
+    """Écrit site/rubrique/*.html, site/ville/*.html et site/sitemap.xml. Retourne la liste des adresses publiques."""
+    conf = json.loads((ICI / "pages.json").read_text(encoding="utf-8"))
+    base = conf["site"].rstrip("/")
+    pages = [("rubrique", k, {**v, "nom": NOMS_RUBRIQUES[k]}, [t for t in tous if t[0]["rubrique"] == k])
+             for k, v in conf["rubriques"].items()]
+    for v in conf["villes"]:
+        motif = re.compile(v["motif"])
+        cite = [t for t in tous if motif.search(normal(f'{t[0]["titre"]} {t[0]["extrait"]} {urlparse(t[0]["lien"]).path.replace("-", " ")}'))]
+        pages.append(("ville", v["id"], {**v, "h1": f'Actualité {de(v["nom"])}'}, cite))
+    e = html.escape
+
+    def nav(dossier, ident):
+        def lien(d, k, nom):
+            courant = ' aria-current="page"' if (d, k) == (dossier, ident) else ""
+            return f'<li><a href="../{d}/{k}.html"{courant}>{e(nom)}</a></li>'
+        return (f'<nav class="autres-pages" aria-label="Autres pages"><h2>Les rubriques</h2><ul>'
+                + "".join(lien(d, k, p["nom"]) for d, k, p, _ in pages if d == "rubrique")
+                + '</ul><h2>Les villes</h2><ul>' + "".join(lien(d, k, p["nom"]) for d, k, p, _ in pages if d == "ville")
+                + '</ul></nav>')
+
+    adresses = [(f"{base}/", tous[0][0]["date"]), (f"{base}/mentions-legales", None)]
+    for dossier, ident, p, articles in pages:
+        url = f"{base}/{dossier}/{ident}"
+        donnees = {"@context": "https://schema.org", "@type": "CollectionPage", "name": p["h1"], "description": p["description"],
+                   "url": url, "inLanguage": "fr", "isPartOf": {"@type": "WebSite", "name": "Nutizie", "url": f"{base}/"},
+                   "mainEntity": {"@type": "ItemList", "numberOfItems": len(articles), "itemListElement": [
+                       {"@type": "ListItem", "position": i, "url": a["lien"], "name": a["titre"]}
+                       for i, (a, _) in enumerate(articles[:20], 1)]}}
+        if dossier == "ville":
+            donnees["about"] = {"@type": "City", "name": p["nom"]}
+        ld = json.dumps(donnees, ensure_ascii=False).replace("</", "<\\/")  # un titre ne peut pas fermer la balise script
+        n = len(articles)
+        robots = "" if articles else '\n  <meta name="robots" content="noindex">'  # page vide : ni indexée ni dans le plan
+        liste = ('<div class="mosaique">' + "\n".join(carte(a, s) for a, s in articles) + "</div>" if articles else
+                 f'<p class="vide">Aucun article récent pour le moment. La page se met à jour environ toutes les 30&nbsp;minutes.</p>')
+        page = f"""<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{e(p["h1"])} : les derniers articles · Nutizie</title>
+  <meta name="description" content="{e(p["description"])}">
+  <link rel="canonical" href="{url}">{robots}
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0b5d7a">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../icones/icone-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="../icones/icone-180.png">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../pages.css">
+  <script>try {{ var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; }} catch (e) {{}}</script>
+  <script type="application/ld+json">{ld}</script>
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller aux articles</a>
+  <header class="entete">
+    <div>
+      <p class="h1"><a href="../index.html"><b>Nutizie</b></a></p>
+      <p class="sous-titre"><a href="../index.html">← Toutes les actualités</a></p>
+    </div>
+  </header>
+  <main id="contenu" class="liste" tabindex="-1">
+    <h1>{e(p["h1"])}</h1>
+    <p class="intro">{e(p["intro"])}</p>
+    <p class="etat">{n} article{"s" if n > 1 else ""} · mise à jour le <time datetime="{maintenant.isoformat(timespec="seconds")}">{maintenant.astimezone(PARIS):%d/%m/%Y à %H h %M}</time></p>
+    <h2 class="vh">Les derniers articles</h2>
+    {liste}
+    {nav(dossier, ident)}
+  </main>
+  <footer class="pied">
+    <p>Les titres, extraits et images appartiennent à leurs éditeurs&nbsp;: chaque article s'ouvre sur le site d'origine. Site indépendant, sans lien avec les médias cités, sans cookie ni mesure d'audience.</p>
+    <p><a href="../index.html">Toutes les actualités</a> · <a href="../mentions-legales.html">Mentions légales, contact et demande de retrait</a></p>
+  </footer>
+  <script>document.addEventListener('error', function (e) {{ if (e.target.tagName === 'IMG') e.target.remove(); }}, true);</script>
+</body>
+</html>
+"""
+        (SORTIE / dossier).mkdir(exist_ok=True)
+        (SORTIE / dossier / f"{ident}.html").write_text(page, encoding="utf-8")
+        if articles:
+            adresses.append((url, articles[0][0]["date"]))
+
+    plan = "".join(f"  <url><loc>{e(u)}</loc>" + (f"<lastmod>{d.isoformat(timespec='seconds')}</lastmod>" if d else "") + "</url>\n"
+                   for u, d in adresses)
+    (SORTIE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                        + plan + "</urlset>\n", encoding="utf-8")
+    return [u for u, _ in adresses]
+
+
 def main():
     conf = json.loads((ICI / "sources.json").read_text(encoding="utf-8"))
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -428,6 +524,7 @@ def main():
     }
     (SORTIE / "data.json").write_text(json.dumps(donnees, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(tous)} articles -> {SORTIE / 'index.html'}")
+    print(f"{len(pages_seo(tous, maintenant))} adresses -> {SORTIE / 'sitemap.xml'}")
 
 
 if __name__ == "__main__":
