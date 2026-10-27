@@ -79,4 +79,42 @@ for abime in ("[]", "null", '{"https://www.ex.corsica/articles/1/a": 7}'):  # ca
 from datetime import datetime, timezone  # noqa: E402
 assert date_fr(datetime(2026, 10, 27, 7, 6, tzinfo=timezone.utc)) == "27 oct. 8 h 06"  # pas de « 08 h »
 assert date_fr(datetime(2026, 9, 24, 22, 0, tzinfo=timezone.utc)) == "25 sept."  # minuit pile : jour seul
-print("OK : lecteur de flux")
+
+# Rubriques par mots-clés
+from collecte import rubrique, sujets, carte  # noqa: E402
+def rub(titre, extrait="", lien="https://ex.corsica/a", **src):
+    return rubrique({"titre": titre, "extrait": extrait, "lien": lien}, src)
+assert rub("Un accident de la circulation fait deux blessés à Bastia") == "faits-divers"
+assert rub("Feu de forêt de Meria : 30 hectares détruits") == "faits-divers"
+assert rub("Football (Ligue 3) – Laurent Peyrelade limogé de son poste d’entraîneur du SC Bastia") == "sport"
+assert rub("U GFCA volley hà vintu") == "sport"  # « vol » ne doit pas faire un faits divers
+assert rub("Autonomie de la Corse : le Sénat rejette le texte") == "politique"
+assert rub("Le festival Ritrovu annulé") == "culture"
+assert rub("Reprise du chantier à Saint-Florent") == "autres"  # « chantier » n'est pas un chant
+assert rub("Avec Kcantà, Francine Massiani porte la langue corse au-delà de l'île") == "langue"
+assert rub("Solidarité : une soirée caritative au profit des sapeurs-pompiers") == "autres"
+assert rub("Transport : nouvelle ligne de bus") == "autres"  # « transport » n'est pas du sport
+assert rub("Bastia : un match sous haute surveillance, la police interpelle deux supporters") == "faits-divers"  # égalité : faits divers d'abord
+assert rub("Météo", lien="https://ex.corsica/article/faits-divers/x") == "faits-divers"  # rubrique dans l'adresse
+assert rub("I maistrelli", rubrique="langue") == "langue"  # rubrique imposée par la source
+
+# « À la une » : même sujet = au moins 2 mots du titre en commun, sans chaîner des sujets différents
+def art(titre, sid):
+    return ({"titre": titre}, {"id": sid})
+g = sujets([art("SC Bastia : Laurent Peyrelade limogé, Michel Moretti assurera l’intérim", "cni"),
+            art("Football : Laurent Peyrelade démis de ses fonctions d'entraîneur du SC Bastia", "cm"),
+            art("L'entraîneur du Sporting Club de Bastia Laurent Peyrelade relevé de ses fonctions", "f3"),
+            art("Un homme en urgence absolue après un accident de la circulation dans le Valincu", "alta"),
+            art("Un accident de la circulation fait deux blessés à Bastia", "alta"),
+            art("Bastia : deux blessés dans un accident de la circulation", "cni"),
+            art("Météo pour ce mardi 27 octobre 2026", "alta"),
+            art("Pronostics hippiques du mardi 27 octobre 2026", "paese")])
+tailles = sorted(len(x) for x in g)
+assert tailles == [1, 1, 1, 2, 3], [[a["titre"] for a, _ in x] for x in g]  # deux accidents différents ne sont pas mêlés ; dates ignorées
+
+# Carte : rubrique affichée, titre en h3, image du flux en chargement différé, adresse et titre échappés
+c = carte({"titre": "<b>", "lien": "https://ex.corsica/a?x=1&y=2", "date": None, "image": "https://ex.corsica/i.jpg",
+           "extrait": "", "rubrique": "faits-divers"}, {"id": "cni", "nom": "CNI", "couleur": "#000"})
+assert 'data-rubrique="faits-divers"' in c and '<span class="rub">Faits divers</span>' in c and 'loading="lazy"' in c
+assert "<h3><a href=\"https://ex.corsica/a?x=1&amp;y=2\"" in c and "&lt;b&gt;" in c
+print("OK : lecteur de flux, rubriques, sujets")

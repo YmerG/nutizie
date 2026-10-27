@@ -10,11 +10,12 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 from urllib.parse import unquote, urlparse
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -34,6 +35,38 @@ EXTRAIT_MAX = 200    # caractères : un extrait court, jamais le texte complet
 SITEMAP = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
 NEWS = "{http://www.google.com/schemas/sitemap-news/0.9}"
 MOIS = "janv. févr. mars avr. mai juin juil. août sept. oct. nov. déc.".split()
+
+# Rubriques : motifs cherchés dans le titre (compte double), l'extrait et l'adresse, en minuscules sans accents.
+# L'ordre départage les égalités : les faits divers d'abord (priorité de Rémy).
+# shortcut: mots-clés, donc quelques erreurs de classement ; à affiner avec les rubriques fournies par les flux si besoin
+RUBRIQUES = {
+    "faits-divers": ("Faits divers", r"faits?[- ]divers|accident|collision|blesse|incendie|feux? de (?:foret|vegetation|broussaille)|depart de feu"
+                     r"|\bles secours\b|sauvetage|helitreuil|heliporte|urgence absolue|gendarme|policier|\bpolice\b|interpell|garde a vue"
+                     r"|mise? en examen|tribunal|cour d'assises|aux assises|\bproces\b|condamne|prison|detenu|homicide|meurtre|assassin|\btues?\b|noyade|\bnoye"
+                     r"|disparition inquietante|agression|cambriol|braquage|\bvols?\b|attentat|explosion|plastiqu|mitraill|coups? de feu"
+                     r"|stupefiant|trafic de|drogue|cocaine|cannabis|enquete (?:ouverte|judiciaire)|une enquete\b|parquet|procureur|\bjuge\b|justice|violences?\b|\bfocu\b|feriti?\b"),
+    "sport": ("Sport", r"\bsport|football|\bfoot\b|ligue [123]|\bmatch|sc bastia|sporting|\baca\b|ac ajaccio|gfca|rugby|basket|handball|volley"
+              r"|tennis|cyclis|\bvelo|\btrail|marathon|triathlon|duathlon|squash|hippi|natation|\bvoile\b|regate|giraglia|tour de corse"
+              r"|rallye|coupe de france|championnat|campiunatu|entraineur|joueu|\bbuts?\b|\bstade\b|\bboxe|judo|karate|aviron|kayak|\bgolf"
+              r"|\bski\b|escrime|athletisme|olympi|ballon d'or"),
+    "politique": ("Politique", r"politi|autonom|nationalist|independan|\bsenat|depute|assemblee de corse|assemblea|collectivite de corse|executif"
+                  r"|\bmaires?\b|municipal|\belus?\b|election|scrutin|\bvote|gouvernement|ministre|\bprefet|prefecture|prifittura|beauvau"
+                  r"|femu a corsica|core in fronte|\bpnc\b|avanzemu|rassemblement national|macron|darmanin|\bloi\b|reforme|constitution"
+                  r"|conseil (?:municipal|departemental|communautaire)|budget|\bmotion|sessione?\b"),
+    "culture": ("Culture", r"cultur|festival|concert|musique|musical|\bchants?\b|chanteu|chanson|polyphon|exposition|\bexpo\b|musee|theatre"
+                r"|cinema|\bfilms?\b|documentaire|danse|choregraph|\blivres?\b|litter|\broman\b|ecrivain|poesie|poete|patrimoine|spectacle"
+                r"|artiste|\barts?\b|photograph|chorale|opera|bande dessinee|conference|histoire|memoire|halloween|\bfetes?\b|\bsalon\b"),
+    "langue": ("Langue corse", r"langue corse|\blingua\b|\bcorsu\b|bilingu|co-?officialit|\bscola\b|immersion|parlata|traduction|dictionnaire"
+               r"|vocabulaire|\bmots? corses?\b|maistr"),
+}
+AUTRES = "autres"
+NOMS_RUBRIQUES = {**{k: v[0] for k, v in RUBRIQUES.items()}, AUTRES: "Autres"}
+MOTIFS = {k: re.compile(v[1]) for k, v in RUBRIQUES.items()}
+# mots trop courants pour dire que deux titres parlent du même sujet
+VIDES = set("""avec pour dans apres avant sous entre plus sans leur leurs cette sont etre fait font mais tout tous toute toutes elle elles
+nous vous dont quand comme aussi encore depuis vers chez ainsi alors selon contre corse corses corsica video direct deux trois quatre cinq
+premier premiere annee annees jour jours lundi mardi mercredi jeudi vendredi samedi dimanche janvier fevrier avril juin juillet aout
+septembre octobre novembre decembre retrouvez""".split())
 
 
 def local(tag):
@@ -239,21 +272,97 @@ def collecter(src):
     return src, articles, ""
 
 
+def normal(s):
+    s = unicodedata.normalize("NFD", s.lower().replace("’", "'"))
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+def rubrique(a, src):
+    """Rubrique d'un article : celle de la source si elle est imposée, sinon la plus citée par les mots-clés."""
+    if src.get("rubrique"):
+        return src["rubrique"]
+    titre, reste = normal(a["titre"]), normal(a["extrait"] + " " + urlparse(a["lien"]).path.replace("-", " "))
+    scores = {k: 2 * len(m.findall(titre)) + len(m.findall(reste)) for k, m in MOTIFS.items()}
+    meilleure = max(scores, key=scores.get)  # à égalité, la première dans RUBRIQUES
+    return meilleure if scores[meilleure] else AUTRES
+
+
+def mots(titre):
+    return {m[:6] for m in re.findall(r"[a-z][a-z0-9]{3,}", normal(titre)) if m not in VIDES}  # 6 lettres : « limogé » = « limogée »
+
+
+def sujets(tous):
+    """Regroupe les articles dont les titres partagent assez de mots : 3, ou 2 qui font 30 % des mots des deux titres."""
+    def proches(m, n):
+        commun = len(m & n)
+        return commun >= 3 or (commun == 2 and commun >= 0.3 * len(m | n))
+    groupes = []
+    for a, src in tous:
+        m = mots(a["titre"])
+        nouveau = {"articles": [(a, src)], "mots": [m]}
+        for g in [g for g in groupes if any(proches(m, n) for n in g["mots"])]:
+            nouveau["articles"] += g["articles"]
+            nouveau["mots"] += g["mots"]
+            groupes.remove(g)
+        groupes.append(nouveau)
+    return [g["articles"] for g in groupes]
+
+
 def date_fr(d):
     d = d.astimezone(PARIS)
     jour = f"{d.day} {MOIS[d.month - 1]}"
     return jour if (d.hour, d.minute) == (0, 0) else f"{jour} {d.hour} h {d:%M}"  # minuit pile : le flux ne donne que le jour
 
 
-def carte(a, src):
+def carte(a, src, classe="carte", charger="lazy"):
     e = html.escape
-    img = (f'<img src="{e(a["image"])}" alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
+    # image : seulement celle du flux du média ; la vignette entière mène à l'article d'origine
+    img = (f'<img src="{e(a["image"])}" alt="" width="640" height="360" loading="{charger}" decoding="async" referrerpolicy="no-referrer">'
            if a["image"] else "")
     quand = (f'<time datetime="{a["date"].isoformat()}">{date_fr(a["date"])}</time>' if a["date"] else "date inconnue")
     extrait = f'<p class="extrait">{e(a["extrait"])}</p>' if a["extrait"] and a["extrait"] != a["titre"] else ""
-    return (f'<article class="carte" data-source="{src["id"]}" style="--c:{e(src["couleur"])}">{img}'
-            f'<div class="corps"><p class="meta"><span class="pastille" aria-hidden="true"></span>{e(src["nom"])}<span aria-hidden="true">·</span>{quand}</p>'
-            f'<h2><a href="{e(a["lien"])}" rel="noopener">{e(a["titre"])}</a></h2>{extrait}</div></article>')
+    rub = f'<span class="rub">{NOMS_RUBRIQUES[a["rubrique"]]}</span>' if a["rubrique"] != AUTRES else ""
+    return (f'<article class="{classe}" data-source="{src["id"]}" data-rubrique="{a["rubrique"]}" style="--c:{e(src["couleur"])}">{img}'
+            f'<div class="corps"><p class="meta"><span class="pastille" aria-hidden="true"></span>{e(src["nom"])}<span aria-hidden="true">·</span>{quand}{rub}</p>'
+            f'<h3><a href="{e(a["lien"])}" rel="noopener">{e(a["titre"])}</a></h3>{extrait}</div></article>')
+
+
+def bloc_faits_divers(tous, n=6):
+    fd = [(a, s) for a, s in tous if a["rubrique"] == "faits-divers"]
+    if not fd:
+        return ""
+    total, fd = len(fd), fd[:n]
+    tete = next((t for t in fd if t[0]["image"]), fd[0])  # en grand : le plus récent avec photo
+    fd = [tete] + [t for t in fd if t is not tete]
+    # la première arrive tout de suite à l'écran : pas de chargement différé pour elle
+    cartes = "".join(carte(a, s, "carte" if i == 0 else "carte compacte", "eager" if i == 0 else "lazy")
+                     for i, (a, s) in enumerate(fd))
+    return (f'<section class="bloc fd" aria-labelledby="t-fd"><div class="bloc-tete"><h2 id="t-fd">Faits divers</h2>'
+            f'<a class="voir" href="#toutes" data-rubrique="faits-divers">Tous les faits divers ({total})</a></div>'
+            f'<div class="fd-liste">{cartes}</div></section>')
+
+
+def bloc_une(tous, depuis, n=4):
+    """« À la une » : les sujets traités par le plus de médias depuis 48 h, l'article avec photo en tête."""
+    groupes = []
+    for g in sujets([(a, s) for a, s in tous if a["date"] and a["date"] >= depuis]):
+        medias = {s["id"] for _, s in g}
+        if len(medias) >= 2:
+            groupes.append((len(medias), max(a["date"] for a, _ in g), g))
+    groupes.sort(key=lambda t: t[:2], reverse=True)
+    e = html.escape
+    html_sujets = ""
+    for nb, _, g in groupes[:n]:
+        g.sort(key=lambda t: t[0]["date"], reverse=True)
+        tete = next((t for t in g if t[0]["image"]), g[0])
+        autres = [t for t in g if t is not tete][:4]
+        aussi = "".join(f'<li><a href="{e(a["lien"])}" rel="noopener">{e(a["titre"])}</a> <span class="de">{e(s["nom"])}</span></li>'
+                        for a, s in autres)
+        html_sujets += (f'<div class="sujet">{carte(*tete)}<p class="nb-medias">{nb} médias en parlent</p>'
+                        f'<ul class="aussi">{aussi}</ul></div>')
+    if not html_sujets:
+        return ""
+    return f'<section class="bloc" aria-labelledby="t-une"><h2 id="t-une">À la une</h2><div class="sujets">{html_sujets}</div></section>'
 
 
 def main():
@@ -275,8 +384,14 @@ def main():
         sys.exit("Aucun article collecté : site non modifié.")
     tous.sort(key=lambda t: t[0]["date"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     maintenant = datetime.now(timezone.utc)
+    for a, src in tous:
+        a["rubrique"] = rubrique(a, src)
 
     e = html.escape
+    nb_rub = {k: sum(a["rubrique"] == k for a, _ in tous) for k in NOMS_RUBRIQUES}
+    rubriques = "".join(
+        f'<button type="button" class="filtre" data-rubrique="{k}" aria-pressed="false">{nom} <span class="nb">{nb_rub[k]}</span></button>'
+        for k, nom in NOMS_RUBRIQUES.items() if nb_rub[k])
     filtres = "".join(
         f'<button type="button" class="filtre" data-source="{s["id"]}" aria-pressed="false" style="--c:{e(s["couleur"])}">'
         f'<span class="pastille" aria-hidden="true"></span>{e(s["nom"])} <span class="nb">{s["nb"]}</span></button>'
@@ -288,6 +403,9 @@ def main():
     liste_sans = "".join(f'<li><a href="{e(s["site"])}" rel="noopener">{e(s["nom"])}</a> <small>({e(s["raison"])})</small></li>'
                          for s in conf.get("sans_flux", []))
     remplacements = {
+        "<!--FAITS_DIVERS-->": bloc_faits_divers(tous),
+        "<!--UNE-->": bloc_une(tous, maintenant - timedelta(hours=48)),
+        "<!--RUBRIQUES-->": rubriques,
         "<!--FILTRES-->": filtres,
         "<!--ARTICLES-->": "\n".join(carte(a, s) for a, s in tous),
         "<!--NB-->": str(len(tous)),
@@ -304,7 +422,7 @@ def main():
     donnees = {
         "genere_le": maintenant.isoformat(timespec="seconds"),
         "sources": [{k: s[k] for k in ("id", "nom", "site", "flux", "nb", "erreur")} for s in bilan],
-        "articles": [{"titre": a["titre"], "lien": a["lien"], "source": s["id"],
+        "articles": [{"titre": a["titre"], "lien": a["lien"], "source": s["id"], "rubrique": a["rubrique"],
                       "date": a["date"].isoformat() if a["date"] else None,
                       "image": a["image"], "extrait": a["extrait"]} for a, s in tous],
     }

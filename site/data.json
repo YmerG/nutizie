@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-27T12:43:16+00:00",
+ "genere_le": "2026-10-27T13:03:46+00:00",
  "sources": [
   {
    "id": "cni",
@@ -103,7 +103,8 @@
    "titre": "Stonde di Vita avec… Jean-François Santolini, menuisier à Tagliu Isulacciu",
    "lien": "https://www.corsenetinfos.corsica/Stonde-di-Vita-avec-Jean-Francois-Santolini-menuisier-a-Tagliu-Isulacciu_a93277.html",
    "source": "cni",
-   "date": "2026-10-27T12:43:11.348979+00:00",
+   "rubrique": "autres",
+   "date": "2026-10-27T13:03:41.776331+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98452821-68659015.jpg?v=1792608478",
    "extrait": "Jean-François Santolini est menuisier à Tagliu Isulacciu depuis une dizaine d’années. Il y a un an il s’est lancé dans les funky fauteuils, des meubles créés à partir de bois abandonnés et…"
   },
@@ -111,6 +112,7 @@
    "titre": "Rejet du texte sur l'autonomie de la Corse au Sénat : \"Le gouvernement continuera à dialoguer\", assure la ministre Françoise Gatel",
    "lien": "https://france3-regions.franceinfo.fr/corse/rejet-du-texte-sur-l-autonomie-de-la-corse-au-senat-le-gouvernement-continuera-a-dialoguer-assure-la-ministre-francoise-gatel-3439710.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-27T11:46:52+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/O5KvAjU8-0rOuOYWjyHVdzAKE6g/930x620/filters:format(webp)/regions/2026/10/27/6ae071ed0edec253815800.jpg",
    "extrait": "Après le rejet du projet de loi constitutionnelle sur l'autonomie de la Corse par le Sénat, dans la nuit du lundi 26 au mardi 27 octobre, la ministre de l'Aménagement du territoire Françoise Gatel a…"
@@ -119,6 +121,7 @@
    "titre": "L'isotrétinoïne",
    "lien": "https://www.ici.fr/emissions/beaute-et-bien-etre/l-isotretinoine-6321964?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-27T11:46:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/5964acc3-153d-4ea2-be19-91cd97a350ea/920x517?webp=false",
    "extrait": "Si les effets du roaccutane sont connus, on évoque moins ses possibles effets secondaires."
@@ -127,6 +130,7 @@
    "titre": "Hippisme - Alexandre Lastrajoli victorieux à Calzarellu",
    "lien": "https://www.corsenetinfos.corsica/Hippisme-Alexandre-Lastrajoli-victorieux-a-Calzarellu_a93368.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-27T11:31:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98508274-68698543.jpg?v=1793100793",
    "extrait": "Le suspense aura duré jusqu’au bout ce dimanche sur l’hippodrome de Calzarellu. Au terme d’une course très disputée, le jockey porto-vecchiais Alexandre Lastrajoli s’est imposé avec Kalife Alaplace…"
@@ -135,6 +139,7 @@
    "titre": "Autonomie : Après le rejet du texte au Sénat, le Gouvernement veut réunir rapidement les élus corses",
    "lien": "https://www.corsenetinfos.corsica/Autonomie-Apres-le-rejet-du-texte-au-Senat-le-Gouvernement-veut-reunir-rapidement-les-elus-corses_a93367.html",
    "source": "cni",
+   "rubrique": "politique",
    "date": "2026-10-27T11:16:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98508127-68698232.jpg?v=1793099892",
    "extrait": "Après le rejet du projet de loi constitutionnelle sur l’autonomie de la Corse dans la nuit de lundi à mardi au Sénat, le Gouvernement veut rapidement relancer les discussions. Dans un communiqué…"
@@ -143,6 +148,7 @@
    "titre": "Peyrelade viré du SC Bastia : \"même un bon, il n'aurait pas pu faire de miracles avec ces joueurs-là\"",
    "lien": "https://france3-regions.franceinfo.fr/corse/peyrelade-vire-du-sc-bastia-meme-un-bon-il-n-aurait-pas-pu-faire-de-miracles-avec-ces-joueurs-la-3439761.html",
    "source": "f3",
+   "rubrique": "sport",
    "date": "2026-10-27T11:07:07+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/RA86P2oajZhLvEYd5S3awDphmgs/930x620/filters:format(webp)/regions/2026/10/27/6ae084260261f012036944.jpg",
    "extrait": "12 petits matchs... Laurent Peyrelade, remercié par le Sporting après la défaite cuisante face à Furiani, n'aura pas vraiment eu le temps de s'installer sur le banc bastiais. Mais rien ne dit que son…"
@@ -151,6 +157,7 @@
    "titre": "Reprise du chantier à Saint-Florent : le pont à nouveau fermé à la circulation dès le 2 novembre",
    "lien": "https://www.corsematin.com/article/societe/43169056484333/reprise-du-chantier-a-saint-florent-le-pont-a-nouveau-ferme-a-la-circulation-des-le-2-novembre",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-27T11:00:10+00:00",
    "image": "",
    "extrait": ""
@@ -159,6 +166,7 @@
    "titre": "Rejet du texte sur l'autonomie de la Corse au Sénat : le Premier ministre devrait organiser une réunion la semaine prochaine avec les élus insulaires",
    "lien": "https://france3-regions.franceinfo.fr/corse/rejet-du-texte-sur-l-autonomie-de-la-corse-au-senat-le-gouvernement-reaffirme-sa-volonte-d-engager-une-nouvelle-concertation-avec-les-elus-insulaires-le-premier-ministre-devrait-organiser-une-reunion-la-semaine-prochaine-3439902.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-27T10:57:28+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/NdpwzmzZ06urcrAdHBpNmc_mlOs/930x620/filters:format(webp)/regions/2026/10/27/6ae08336669d5247789091.jpg",
    "extrait": "Ce mardi 27 octobre, le gouvernement a réaffirmé sa volonté d'engager une nouvelle concertation avec les élus de la Corse quant à l'autonomie de l'île. Une réunion devrait se tenir avec le Premier…"
@@ -167,6 +175,7 @@
    "titre": "Mort de Pierre-Antoine D'Orazio à 47 ans : \"Irremplaçable\", \"sous le choc\", \"un pilier\"... Alizée, Sylvie Tellier, Miss Corse, les hommages se multiplient",
    "lien": "https://www.corsematin.com/article/faits-diversjustice/10048924647494/mort-de-pierre-antoine-dorazio-a-47-ans-irremplacable-sous-le-choc-un-pilier-alizee-sylvie-tellier-miss-corse-les-hommages-se-multiplient",
    "source": "cm",
+   "rubrique": "faits-divers",
    "date": "2026-10-27T10:31:18+00:00",
    "image": "",
    "extrait": ""
@@ -175,6 +184,7 @@
    "titre": "Solidarité : une soirée caritative au profit des sapeurs-pompiers",
    "lien": "https://stampa-paese.com/actus-evenements-societe/article/solidarite-une-soiree-caritative-au-profit-des-sapeurs-pompiers",
    "source": "paese",
+   "rubrique": "autres",
    "date": "2026-10-27T10:16:46+00:00",
    "image": "",
    "extrait": ""
@@ -183,6 +193,7 @@
    "titre": "« Autonomie de la Corse : Femu a Corsica consulte ses militants après le retrait de Beauvau »",
    "lien": "https://www.corsicainfurmazione.org/2030533/autonomie-de-la-corse-femu-a-corsica-consulte-ses-militants-apres-le-retrait-de-beauvau/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-27T09:59:41+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 27 octobre 2026) Après le rejet au Sénat du projet de réforme constitutionnelle sur l’autonomie de la Corse, Femu a Corsica confirme son retrait…"
@@ -191,6 +202,7 @@
    "titre": "SC Bastia : l'entraîneur Laurent Peyrelade \"relevé de ses fonctions\", Michel Moretti assure l'intérim",
    "lien": "https://www.ici.fr/corse/sc-bastia-l-entraineur-laurent-peyrelade-releve-de-ses-fonctions-michel-moretti-assure-l-interim-1900839?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "sport",
    "date": "2026-10-27T09:40:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/0cddbd39-42fc-4a76-aa68-837748e8f6d8/920x517?webp=false",
    "extrait": "\"Le Sporting Club di Bastia annonce que Laurent Peyrelade est relevé de ses fonctions d’entraîneur principal de l’équipe première à compter de ce jour\", annonce le club dans un bref communiqué ce…"
@@ -199,6 +211,7 @@
    "titre": "L'application smartphone \"Isula Muntagna\"",
    "lien": "https://www.ici.fr/emissions/u-girandulone/l-application-smartphone-isula-muntagna-7632968?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-27T09:32:30+00:00",
    "image": "https://www.ici.fr/pikapi/images/1c320dc7-e506-4f07-9de0-b2f867011f26/920x517?webp=false",
    "extrait": "Isula Muntagna est une application mobile qui met le numérique au service de notre territoire et de ceux qui le font vivre au quotidien. À l'heure où le numérique prend une place de plus en plus…"
@@ -207,6 +220,7 @@
    "titre": "« De la ligne jacobine au soutien à l’autonomie » – Gabriel Amard dénonce le recul sur l’autonomie corse.",
    "lien": "https://www.corsicainfurmazione.org/2030475/de-la-ligne-jacobine-au-soutien-a-lautonomie-gabriel-amard-denonce-le-recul-sur-lautonomie-corse/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-27T09:24:02+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 27 octobre 2026) Le projet de loi constitutionnelle « pour une Corse autonome au sein de la République »,a été discuté en séance publique au…"
@@ -215,6 +229,7 @@
    "titre": "« Echec de Beauvau : la LDH Corsica appelle à une mobilisation de la société civile »",
    "lien": "https://www.corsicainfurmazione.org/2030524/echec-de-beauvau-la-ldh-corsica-appelle-a-une-mobilisation-de-la-societe-civile/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-27T09:06:57+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 27 octobre 2026) La Ligue des droits de l’Homme, section de Corse, estime que le processus de Beauvau a progressivement perdu sa portée…"
@@ -223,6 +238,7 @@
    "titre": "Rejet de l'autonomie au Sénat : le gouvernement se dit \"déterminé à poursuivre les travaux\"",
    "lien": "https://www.corsematin.com/article/politique/25218368684248/le-gouvernement-a-la-manoeuvre-apres-le-rejet-du-texte-sur-lautonomie",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-27T09:05:16+00:00",
    "image": "",
    "extrait": ""
@@ -231,6 +247,7 @@
    "titre": "Quand la recherche scientifique prend le large vers l'économie bleue",
    "lien": "https://www.corsematin.com/article/education/37685830141248/quand-la-recherche-scientifique-prend-le-large-vers-leconomie-bleue",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-27T09:00:02+00:00",
    "image": "",
    "extrait": ""
@@ -239,6 +256,7 @@
    "titre": "« Les autonomistes quittent le processus de Beauvau, le Sénat rejette le projet d’autonomie de la Corse »",
    "lien": "https://www.corsicainfurmazione.org/2030516/les-autonomistes-quittent-le-processus-de-beauvau-le-senat-rejette-le-projet-dautonomie-de-la-corse/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-27T08:50:43+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 27 octobre 2026) Le Sénat a rejeté, dans la nuit de lundi à mardi, le projet de réforme constitutionnelle relatif à l’autonomie de la Corse, par…"
@@ -247,6 +265,7 @@
    "titre": "Autonomie de la Corse : le Sénat rejette le projet de réforme constitutionnelle",
    "lien": "https://stampa-paese.com/actus-societe/article/autonomie-de-la-corse-le-senat-rejette-le-projet-de-reforme-constitutionnelle",
    "source": "paese",
+   "rubrique": "politique",
    "date": "2026-10-27T08:42:55+00:00",
    "image": "",
    "extrait": ""
@@ -255,6 +274,7 @@
    "titre": "« Après le vote du Sénat, Voce Naziunale appelle la jeunesse corse à ouvrir une nouvelle voie »",
    "lien": "https://www.corsicainfurmazione.org/2030515/apres-le-vote-du-senat-voce-naziunale-appelle-la-jeunesse-corse-a-ouvrir-une-nouvelle-voie/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-27T08:35:06+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 27 octobre 2026) Le groupe nationaliste Voce Naziunale, à l’Assemblée de la jeunesse corse, considère que l’échec du projet d’autonomie au Sénat…"
@@ -263,6 +283,7 @@
    "titre": "Le sénat vote contre le texte sur l'autonomie de la Corse qu'il avait modifié après 10h de débats…",
    "lien": "https://france3-regions.franceinfo.fr/corse/le-senat-vote-contre-le-texte-sur-l-autonomie-de-la-corse-qu-il-avait-modifie-apres-10h-de-debats-3439632.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-27T07:46:24+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/pXXJPTzFuSsY8jaZfyCDqtO2xrI/930x620/filters:format(webp)/regions/2026/10/27/6adfecd1acbfc955296157.jpg",
    "extrait": "Pas de pouvoir législatif, retrait du principe de communauté… Après l'avoir amendé, le sénat vote contre le texte. C'est une période d'incertitude politique qui s'ouvre en Corse après une journée…"
@@ -271,6 +292,7 @@
    "titre": "Rejet de l'autonomie par le Sénat : \"Suffrage universel méprisé\", \"basta\", \"mauvaise foi\", retrouvez les dernières réactions",
    "lien": "https://www.corsematin.com/article/politique/20008318945216/rejet-de-lautonomie-par-le-senat-le-suffrage-universel-est-meprise-retrouvez-les-dernieres-reactions",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-27T07:38:26+00:00",
    "image": "",
    "extrait": ""
@@ -279,6 +301,7 @@
    "titre": "Autonomie de la Corse : les nationalistes actent la fin du processus de Beauvau",
    "lien": "https://www.ici.fr/corse/autonomie-de-la-corse-les-nationalistes-actent-la-fin-du-processus-de-beauvau-6581278?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-27T07:30:11+00:00",
    "image": "https://www.ici.fr/pikapi/images/f1fd83c4-e74e-4e23-89b8-6fd40e3ea794/920x517?webp=false",
    "extrait": "Le sénateur de Haute-Corse, Paulu-Santu Parigi, a annoncé, en séance publique, son retrait - et celui de tous les nationalistes - du processus de Beauvau, entamé en 2022. L'examen du projet de loi…"
@@ -287,6 +310,7 @@
    "titre": "Ajaccio : la municipalité inaugure le dispositif A voci di i quartieri, avec des élus référents et des permanences mensuelles dans les quartiers",
    "lien": "https://www.corsematin.com/article/politique/48374832450004/ajaccio-la-municipalite-inaugure-le-dispositif-a-voci-di-i-quartieri-avec-des-elus-referents-et-des-permanences-mensuelles-dans-les-quartiers",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-27T07:30:01+00:00",
    "image": "",
    "extrait": ""
@@ -295,6 +319,7 @@
    "titre": "Un homme en urgence absolue après un accident de la circulation dans le Valincu",
    "lien": "https://www.alta-frequenza.corsica/un-homme-en-urgence-absolue-apres-un-accident-de-la-circulation-dans-le-valincu",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-27T07:13:28+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/6-768x644.jpg",
    "extrait": ""
@@ -303,6 +328,7 @@
    "titre": "\"Faire remonter les problèmes\" : à Ajaccio, des élus référents dans tous les quartiers de la ville dès novembre",
    "lien": "https://france3-regions.franceinfo.fr/corse/faire-remonter-les-problemes-a-ajaccio-des-elus-referents-dans-tous-les-quartiers-de-la-ville-des-novembre-3439641.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-27T07:07:04+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/tuTlPgwOIpVY_yRTxMVvpSdaHRk/930x620/filters:format(webp)/regions/2026/10/27/6ae04b5758b88457233000.jpg",
    "extrait": "C'était une des promesses de campagne du candidat Stéphane Sbraggia : le rapprochement au plus près de la vie des quartiers d'Ajaccio. La ville est déclinée en dix secteurs, le maire y a nommé des…"
@@ -311,6 +337,7 @@
    "titre": "Météo pour ce mardi 27 octobre 2026 en Corse",
    "lien": "https://www.alta-frequenza.corsica/meteo-pour-ce-mardi-27-octobre-2026-en-corse",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-27T07:06:45+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/1-49-768x556.jpg",
    "extrait": ""
@@ -319,6 +346,7 @@
    "titre": "Carburants : tout savoir sur les nouveaux critères pour bénéficier de l'aide \"grands rouleurs\" à partir de ce mardi",
    "lien": "https://www.ici.fr/infos/economie-social/carburants-les-nouveaux-beneficiaires-de-l-aide-grands-rouleurs-peuvent-s-inscrire-en-ligne-a-partir-de-ce-mardi-6578384?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-27T06:55:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/0bdee2a8-7a7f-4fa0-b3f9-0548a7d5b302/920x517?webp=false",
    "extrait": "Les nouveaux bénéficiaires de l'aide destinée aux travailleurs grands rouleurs, prolongée jusqu'en décembre et élargie à 5,5 millions de Français, peuvent s'inscrire en ligne à partir de ce mardi. Il…"
@@ -327,6 +355,7 @@
    "titre": "Les instituteurs..I maistrelli.",
    "lien": "https://www.linguanostra.com/blog/les-instituteurs-i-maistrelli/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-10-27T06:53:34+00:00",
    "image": "",
    "extrait": "Dans ma famille, du coté de ma mère, il y avait beaucoup d’Instituteurs ou professeurs. Il faudrait plutôt parler d’institutrices car c’était des femmes qui avaient choisi d’enseigner. On me…"
@@ -335,6 +364,7 @@
    "titre": "Pronostics hippiques du mardi 27 octobre 2026",
    "lien": "https://stampa-paese.com/pronos-hippiques/article/pronostics-hippiques-du-mardi-27-octobre-2026",
    "source": "paese",
+   "rubrique": "sport",
    "date": "2026-10-27T06:45:00+00:00",
    "image": "",
    "extrait": ""
@@ -343,6 +373,7 @@
    "titre": "A maghjina - Corti si sveglia",
    "lien": "https://www.corsenetinfos.corsica/A-maghjina-Corti-si-sveglia_a93362.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-27T06:05:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98503747-68694471.jpg?v=1793045762",
    "extrait": "Au petit matin, Corti s’éveille doucement sous un ciel aux couleurs flamboyantes, entre les premières lueurs du jour et les sommets encore enveloppés de nuages, dans un instant empli de sérénité. Si…"
@@ -351,6 +382,7 @@
    "titre": "U tempu in Corsica",
    "lien": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93361.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-27T06:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98503725-68694466.jpg?v=1793045650",
    "extrait": "Ce mardi, le soleil dominera largement sur la Corse malgré quelques passages nuageux, notamment sur la façade occidentale dans l’après-midi. Consultez la météo corse en direct et en permanence sur…"
@@ -359,6 +391,7 @@
    "titre": "Corse-Japon : la châtaigne, un trait d’union entre deux territoires",
    "lien": "https://www.ici.fr/corse/corse-japon-la-chataigne-un-trait-d-union-entre-deux-territoires-6788886?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "culture",
    "date": "2026-10-27T05:00:05+00:00",
    "image": "https://www.ici.fr/pikapi/images/15985284-8333-403d-a4f5-bc70fc3621a4/920x517?webp=false",
    "extrait": "Depuis deux ans, la Corse et le Japon multiplient les échanges autour de la châtaigne. Une délégation japonaise est accueillie dans l’île avec l’ambition de transformer cette proximité culturelle en…"
@@ -367,6 +400,7 @@
    "titre": "Fiasco pour l’autonomie de la Corse au Sénat : la majorité territoriale claque la porte du processus, le texte lourdement amendé et rejeté",
    "lien": "https://www.alta-frequenza.corsica/fiasco-pour-lautonomie-de-la-corse-au-senat-la-majorite-territoriale-claque-la-porte-du-processus-le-texte-lourdement-amende-et-rejete",
    "source": "alta",
+   "rubrique": "politique",
    "date": "2026-10-27T05:00:00+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/20261026_223236-768x432.jpeg",
    "extrait": ""
@@ -375,6 +409,7 @@
    "titre": "Autonomie de la Corse : les sénateurs rejettent le texte amendé",
    "lien": "https://www.corsematin.com/article/politique/15714992223972/autonomie-de-la-corse-au-senat-les-coulisses-de-la-fin-du-processus-de-beauvau",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-26T23:43:26+00:00",
    "image": "",
    "extrait": ""
@@ -383,6 +418,7 @@
    "titre": "Autonomie de la Corse : Le Sénat rejette le texte qu’il a complètement détricoté !",
    "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Le-Senat-rejette-le-texte-qu-il-a-completement-detricote-_a93365.html",
    "source": "cni",
+   "rubrique": "politique",
    "date": "2026-10-26T23:15:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98504930-68695244.jpg?v=1793056630",
    "extrait": "Le projet de loi constitutionnelle pour une Corse autonome au sein de la République était, lundi après-midi, en débat en séance publique au Sénat. La discussion générale sur le texte, qui a débuté à…"
@@ -391,6 +427,7 @@
    "titre": "Il y a 4 ans, un mouvement de résistance occupait l’Assemblée de #Corse en soutien aux prisonniers politiques",
    "lien": "https://www.corsicainfurmazione.org/2008873/il-y-a-un-an-un-mouvement-de-resistance-occupait-lassemblee-de-corse-en-soutien-aux-prisonniers-politiques-corse/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-26T23:07:32+00:00",
    "image": "",
    "extrait": "(Unità Naziunale – Lutte de masse – Publié le 27 octobre 2022) Des représentants des associations de défenses de prisonniers politiques, de syndicats de jeunes et agricoles s’étaient donné rendez…"
@@ -399,6 +436,7 @@
    "titre": "ISULA FRIP' : Vide-dressing gratuit pour les étudiants",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11750",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-26T23:00:00+00:00",
    "image": "",
    "extrait": "Cari Studientini, Isula Frip’ revient pour une deuxième édition ! Après le succès de la première édition, le Bureau d’Accompagnement de Soutien et d’Écoute vous donne à nouveau rendez-vous les 3 et 4…"
@@ -407,6 +445,7 @@
    "titre": "Autonomie de la Corse : \"Nous nous retirons du processus de Beauvau\", lance Paulu Santu Parigi après la suppression par le Sénat de la notion de communauté",
    "lien": "https://france3-regions.franceinfo.fr/corse/autonomie-de-la-corse-dous-nous-retirons-du-processus-de-beauvau-lance-paulu-santu-parigi-apres-la-suppression-par-le-senat-de-la-notion-de-communaute-3439629.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-26T22:50:03+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/ZTLj0MaHszRSA56_m2lTO9I470A/930x620/filters:format(webp)/regions/2026/10/26/6adfd90db73ee420749423.jpg",
    "extrait": "Ce lundi 26 octobre, le sénateur de Haute-Corse, Paulu Santu Parigi, a annoncé se retirer du processus de Beauvau. Une décision prise après le vote, par le Sénat, de supprimer la notion de…"
@@ -415,6 +454,7 @@
    "titre": "Autonomie de la Corse : Coup de théâtre au Sénat, les Nationalistes quittent le processus de Beauvau",
    "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Coup-de-theatre-au-Senat-les-Nationalistes-quittent-le-processus-de-Beauvau_a93364.html",
    "source": "cni",
+   "rubrique": "politique",
    "date": "2026-10-26T22:30:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98504681-68695143.jpg?v=1793053891",
    "extrait": "En plein débat sur les amendements du projet de loi constitutionnelle pour une Corse autonome au sein de la République, les Nationalistes ont annoncé, par la voix du sénateur Paulu-Santu Parigi…"
@@ -423,6 +463,7 @@
    "titre": "« Autonomie de la Corse : le PNC et Avanzemu retirent leur soutien au processus »",
    "lien": "https://www.corsicainfurmazione.org/2030506/autonomie-de-la-corse-le-pnc-et-avanzemu-retirent-leur-soutien-au-processus/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-26T22:06:09+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 26 octobre 2026) Le PNC et Avanzemu annoncent le retrait de leur soutien au processus d’autonomie de la Corse, après les modifications apportées…"
@@ -431,6 +472,7 @@
    "titre": "« Autonomie de la Corse : Paulu-Santu Parigi annonce le retrait du processus de Beauvau »",
    "lien": "https://www.corsicainfurmazione.org/2030496/autonomie-de-la-corse-paulu-santu-parigi-annonce-le-retrait-du-processus-de-beauvau/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-26T21:16:02+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 26 octobre 2026) À la suite des décisions prises au Sénat sur le projet d’autonomie de la Corse, le sénateur Paulu-Santu Parigi a annoncé le…"
@@ -439,6 +481,7 @@
    "titre": "Sénat – Autonomie « Gérald Darmanin rejette la co-officialité, le peuple corse et le statut de résident »",
    "lien": "https://www.corsicainfurmazione.org/2030490/senat-autonomie-gerald-darmanin-rejette-la-co-officialite-le-peuple-corse-et-le-statut-de-resident/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-26T20:55:01+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 26 octobre 2026) Le ministre français de la Justice, Gérald Darmanin, a affirmé que le gouvernement avait rejeté les trois principales…"
@@ -447,6 +490,7 @@
    "titre": "Chronique littéraire : découvrez \"J'étais Abigail Boone\" de Dominic Nolan",
    "lien": "https://www.corsematin.com/article/culture-loisirs/66954096058254/chronique-litteraire-decouvrez-jetais-abigail-boone-de-dominic-nolan",
    "source": "cm",
+   "rubrique": "culture",
    "date": "2026-10-26T20:30:02+00:00",
    "image": "",
    "extrait": ""
@@ -455,6 +499,7 @@
    "titre": "Squash : les Corses se placent au 31e French Juniors Open à Lille",
    "lien": "https://www.corsematin.com/article/sports/41297555950399/squash-les-corses-se-placent-au-31e-french-juniors-open-a-lille",
    "source": "cm",
+   "rubrique": "sport",
    "date": "2026-10-26T20:00:01+00:00",
    "image": "",
    "extrait": ""
@@ -463,6 +508,7 @@
    "titre": "Bal’Dilà, quand la danse contemporaine fait revivre la mémoire corse",
    "lien": "https://www.corsenetinfos.corsica/Bal-Dila-quand-la-danse-contemporaine-fait-revivre-la-memoire-corse_a93250.html",
    "source": "cni",
+   "rubrique": "culture",
    "date": "2026-10-26T20:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98436648-68642052.jpg?v=1792497322",
    "extrait": "Avec La Danse d’après, présentée le 6 novembre à Ajaccio, Mathéa Rafini et Déborah Lombardo Delsol revisitent les danses traditionnelles insulaires pour les faire résonner auprès des nouvelles…"
@@ -471,6 +517,7 @@
    "titre": "À Ajaccio, la FALEP reçoit 5 000 euros pour accompagner les jeunes vers l’emploi grâce au numérique",
    "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-la-FALEP-recoit-5-000-euros-pour-accompagner-les-jeunes-vers-l-emploi-grace-au-numerique_a93360.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-26T19:48:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98503516-68694342.jpg?v=1793044380",
    "extrait": "Lauréate de l’appel à projets SFR Solidaire, la FALEP - Ligue de l’Enseignement de Corse va bénéficier d’une dotation de 5 000 euros de la Fondation SFR. Une aide destinée à développer son projet «…"
@@ -479,6 +526,7 @@
    "titre": "L'entraîneur du Sporting Club de Bastia Laurent Peyrelade relevé de ses fonctions",
    "lien": "https://france3-regions.franceinfo.fr/corse/l-entraineur-du-sporting-club-de-bastia-laurent-peyrelade-releve-de-ses-fonctions-3439623.html",
    "source": "f3",
+   "rubrique": "sport",
    "date": "2026-10-26T18:50:46+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/rFM6g1aSV3M5eN1oO-B4z29Rbpk/930x620/filters:format(webp)/regions/2026/08/06/6a74b7f79dd81674291584.jpg",
    "extrait": "Le club bastiais a annoncé officiellement le départ de son entraîneur Laurent Peyrelade ce 26 octobre 2026. Recruté en juin dernier, il sera resté à peine cinq mois au Sporting."
@@ -487,6 +535,7 @@
    "titre": "Un nouveau numéro de votre magazine \"Paroles de Corse\" est disponible gratuitement en téléchargement !",
    "lien": "https://france3-regions.franceinfo.fr/corse/un-nouveau-numero-de-votre-magazine-paroles-de-corse-est-disponible-gratuitement-en-telechargement-3439569.html",
    "source": "f3",
+   "rubrique": "autres",
    "date": "2026-10-26T18:41:11+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/H0D_TWhMIouQ_ZiJwQvY1eUNR_o/930x620/filters:format(webp)/regions/2026/10/26/6adf822ba1f8e226675830.png",
    "extrait": "\"Paroles de Corse\" vous fait découvrir toute l'actualité de l'île, ne passez pas à côté ! Un programme riche et varié pour ce numéro du mois d'octobre !"
@@ -495,6 +544,7 @@
    "titre": "Remplacement de Parcoursup, recrutement de profs, rénovation du bâti, réactions mitigées en Corse aux annonces du gouvernement en réponse aux lycéens",
    "lien": "https://www.corsematin.com/article/education/54330896668429/remplacement-de-parcoursup-recrutement-de-profs-renovation-du-bati-reactions-mitigees-en-corse-aux-annonces-du-gouvernement-en-reponse-aux-lyceens",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-26T18:31:28+00:00",
    "image": "",
    "extrait": ""
@@ -503,6 +553,7 @@
    "titre": "Football : Laurent Peyrelade démis de ses fonctions d'entraîneur du SC Bastia",
    "lien": "https://www.corsematin.com/article/sports/20540969820178/football-laurent-peyrelade-demis-de-ses-fonctions-dentraineur-du-sc-bastia",
    "source": "cm",
+   "rubrique": "sport",
    "date": "2026-10-26T18:22:04+00:00",
    "image": "",
    "extrait": ""
@@ -511,6 +562,7 @@
    "titre": "Football (Ligue 3) – Laurent Peyrelade limogé de son poste d’entraîneur du SC Bastia",
    "lien": "https://www.alta-frequenza.corsica/football-ligue-3-laurent-peyrelade-limoge-de-son-poste-dentraineur-du-sc-bastia",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-26T18:18:17+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/football_ligue_3_le_nouvel_entraineur_du_sc_bastia_laurent_peyrelade_arrive_avec_humilite-768x432.jpg",
    "extrait": ""
@@ -519,6 +571,7 @@
    "titre": "SC Bastia : Laurent Peyrelade limogé, Michel Moretti assurera l’intérim",
    "lien": "https://www.corsenetinfos.corsica/SC-Bastia-Laurent-Peyrelade-limoge-Michel-Moretti-assurera-l-interim_a93359.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-26T18:17:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98502775-68693947.jpg?v=1793038793",
    "extrait": "Après seulement dix journées de Ligue 3 et une élimination en Coupe de France face à l’AS Furiani-Agliani, le Sporting Club de Bastia a annoncé ce lundi 26 octobre se séparer de son entraineur…"
@@ -527,6 +580,7 @@
    "titre": "\"On va finir par aller à la catastrophe\". En attendant les travaux, ces camions chargés de clémentines continuent à emprunter un pont endommagé par les dernières intempéries en Corse",
    "lien": "https://france3-regions.franceinfo.fr/corse/on-va-finir-par-aller-a-la-catastrophe-en-attendant-les-travaux-ces-camions-charges-de-clementines-continuent-a-emprunter-un-pont-endommage-par-les-dernieres-intemperies-en-corse-3439575.html",
    "source": "f3",
+   "rubrique": "autres",
    "date": "2026-10-26T18:12:42+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/1Syn0Qgt7PKkJeaylUFbW-XsRbg/930x620/filters:format(webp)/regions/2026/10/26/6adf961f228e8315564873.jpg",
    "extrait": "Endommagé par les violentes intempéries de la semaine dernière, le pont d'Antisanti est interdit aux véhicules de plus de 19 tonnes. En plein début de saison de la clémentine, les transporteurs…"
@@ -535,6 +589,7 @@
    "titre": "SC Bastia : Laurent Peyrelade n’est plus l’entraîneur du Sporting",
    "lien": "https://stampa-paese.com/actus-sport-corsica/article/sc-bastia-laurent-peyrelade-nest-plus-lentraineur-du-sporting",
    "source": "paese",
+   "rubrique": "sport",
    "date": "2026-10-26T18:11:33+00:00",
    "image": "",
    "extrait": ""
@@ -543,6 +598,7 @@
    "titre": "Un homme de 40 ans héliporté après un accident sur la RD 157 à Olmeto-Plage",
    "lien": "https://www.corsematin.com/article/faits-diversjustice/40150380130484/un-homme-de-40-ans-heliporte-apres-un-accident-sur-la-rd-157-a-olmeto-plage",
    "source": "cm",
+   "rubrique": "faits-divers",
    "date": "2026-10-26T17:38:20+00:00",
    "image": "",
    "extrait": ""
@@ -551,6 +607,7 @@
    "titre": "Transition énergétique : une nouvelle formation à l'Université de Corse",
    "lien": "https://www.corsematin.com/article/economie/39282469701578/transition-energetique-une-nouvelle-formation-a-luniversite-de-corse",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-26T17:23:52+00:00",
    "image": "",
    "extrait": ""
@@ -559,6 +616,7 @@
    "titre": "Les élus d'Ajaccio à la rencontre des habitants",
    "lien": "https://www.ici.fr/corse/ajaccio-les-elus-a-la-rencontre-des-habitants-9274521?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-26T17:12:46+00:00",
    "image": "https://www.ici.fr/pikapi/images/1332cd3d-bfab-4f3b-9e56-d827edd49e6b/920x517?webp=false",
    "extrait": "À partir du mois de novembre, les élus de la majorité ajaccienne tiendront tous les mois des permanences dans les quartiers de la ville afin de recueillir les doléances des habitants et de leur…"
@@ -567,6 +625,7 @@
    "titre": "Mise en examen du patron de Telegram, enquête contre Elon Musk, une magistrate du pôle parisien cybercriminalité explique ses combats à l'université de Corte",
    "lien": "https://france3-regions.franceinfo.fr/corse/mise-en-examen-du-patron-de-telegram-enquete-contre-elon-musk-une-magistrate-du-pole-parisien-cybercriminalite-explique-ses-combats-a-l-universite-de-corte-3439527.html",
    "source": "f3",
+   "rubrique": "faits-divers",
    "date": "2026-10-26T16:31:40+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/ak1GbZZZfwNWxOw_DYuBQP76Fa4/930x620/filters:format(webp)/regions/2026/10/26/6adf7b429aea3328077889.jpg",
    "extrait": "Invitée de la conférence annuelle sur la cybercriminalité de l'université de Corte, la vice-procureure du pôle cyber du parquet de Paris Johanna Brousse a partagé avec les étudiants les multiples…"
@@ -575,6 +634,7 @@
    "titre": "Entre la Corse et le Japon, des savoir-faire autour de la châtaigne à partager",
    "lien": "https://www.corsenetinfos.corsica/Entre-la-Corse-et-le-Japon-des-savoir-faire-autour-de-la-chataigne-a-partager_a93357.html",
    "source": "cni",
+   "rubrique": "culture",
    "date": "2026-10-26T16:23:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98501286-68693136.jpg?v=1793031325",
    "extrait": "Une délégation japonaise d’une dizaine de personnes est en Corse jusqu’au 30 octobre pour approfondir les échanges autour de la châtaigne. Née à la foire de Bocognano, cette coopération pourrait…"
@@ -583,6 +643,7 @@
    "titre": "Le Projet de loi sur l’Autonomie de la Corse devant le Sénat",
    "lien": "https://www.alta-frequenza.corsica/le-projet-de-loi-sur-lautonomie-de-la-corse-devant-le-senat",
    "source": "alta",
+   "rubrique": "politique",
    "date": "2026-10-26T16:17:02+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/senat-768x432.jpg",
    "extrait": ""
@@ -591,6 +652,7 @@
    "titre": "La ville Borgo accueille, les 31 octobre et 1er novembre, la première édition du Salon des blockbusters et des séries TV",
    "lien": "https://www.corsematin.com/article/culture-loisirs/10179642648293/la-ville-borgo-accueille-les-31-octobre-et-1er-novembre-la-premiere-edition-du-salon-des-blockbusters-et-des-series-tv",
    "source": "cm",
+   "rubrique": "culture",
    "date": "2026-10-26T16:03:45+00:00",
    "image": "",
    "extrait": ""
@@ -599,6 +661,7 @@
    "titre": "Duathlon de la Conca d'Oru : une première réussie",
    "lien": "https://www.corsematin.com/article/sports/30200196302369/duathlon-de-la-conca-doru-une-premiere-reussie",
    "source": "cm",
+   "rubrique": "sport",
    "date": "2026-10-26T16:00:02+00:00",
    "image": "",
    "extrait": ""
@@ -607,6 +670,7 @@
    "titre": "Autonomie de la Corse : les débats ont débuté au Sénat",
    "lien": "https://www.ici.fr/corse/autonomie-de-la-corse-les-debats-ont-debute-au-senat-8014934?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-26T15:58:49+00:00",
    "image": "https://www.ici.fr/pikapi/images/1549d54a-b4ee-4908-a2a1-77db852734bf/920x517?webp=false",
    "extrait": "L'autonomie de la Corse. Quatre mois après son adoption à l'Assemblée nationale, le projet de loi constitutionnelle pour une Corse au sein de la République débarque au palais du Luxembourg ce lundi."
@@ -615,6 +679,7 @@
    "titre": "Succès pour l'ouverture au public de la piscine intercommunale de Prunelli-di-Fium'Orbu",
    "lien": "https://www.corsematin.com/article/societe/2870997448506514/succes-pour-louverture-au-public-de-la-piscine-intercommunale-de-prunelli-di-fiumorbu",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-26T15:00:48+00:00",
    "image": "",
    "extrait": ""
@@ -623,6 +688,7 @@
    "titre": "La Victoire De Maria Nowak Sur L’impossible",
    "lien": "https://stampa-paese.com/actus/article/la-victoire-de-maria-nowak-sur-limpossible",
    "source": "paese",
+   "rubrique": "autres",
    "date": "2026-10-26T14:57:43+00:00",
    "image": "",
    "extrait": ""
@@ -631,6 +697,7 @@
    "titre": "Aiacciu déploie \"A Voci di i quartieri\" : des élus de proximité à l'écoute des habitants",
    "lien": "https://stampa-paese.com/actus-informations-locales/article/aiacciu-deploie-voci-di-i-quartieri-des-elus-de-proximite",
    "source": "paese",
+   "rubrique": "politique",
    "date": "2026-10-26T14:55:27+00:00",
    "image": "",
    "extrait": ""
@@ -639,6 +706,7 @@
    "titre": "Balade dans l’univers à Sisco",
    "lien": "https://www.corsenetinfos.corsica/notes/Balade-dans-l-univers-a-Sisco_b98500260.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-26T14:38:00+00:00",
    "image": "",
    "extrait": "Ce vendredi 30 octobre, le CCAS de Sisco organise une soirée découverte de l’uinivers avec Gilbert Fouquet, qui partagera sa passion pour l’espace. Pour les curieux, rêveurs et explorateurs en herbe…"
@@ -647,6 +715,7 @@
    "titre": "Carton plein à Lumiu pour le premier loto de l'association A Scala Corta",
    "lien": "https://stampa-paese.com/actus-informations-locales/article/carton-plein-lumiu-pour-le-premier-loto-de-lassociation-scala",
    "source": "paese",
+   "rubrique": "autres",
    "date": "2026-10-26T14:36:08+00:00",
    "image": "",
    "extrait": ""
@@ -655,6 +724,7 @@
    "titre": "À Ajaccio, la majorité municipale veut installer les élus au cœur des quartiers",
    "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-la-majorite-municipale-veut-installer-les-elus-au-coeur-des-quartiers_a93354.html",
    "source": "cni",
+   "rubrique": "politique",
    "date": "2026-10-26T14:30:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98499806-68691775.jpg?v=1793023612",
    "extrait": "Présenté ce lundi matin à Pietralba, le dispositif « La Voix des quartiers / A voci di i quartieri » doit organiser, dès novembre, des permanences mensuelles dans les dix secteurs de la ville où…"
@@ -663,6 +733,7 @@
    "titre": "Balagne : l'hydrogène vert sur le lac d E Cotule, un pari pour l'avenir énergétique de la Corse",
    "lien": "https://stampa-paese.com/actus/article/balagne-lhydrogene-vert-sur-le-lac-d-e-cotule-un-pari-pour-lavenir-energetique-de-la",
    "source": "paese",
+   "rubrique": "autres",
    "date": "2026-10-26T14:26:54+00:00",
    "image": "",
    "extrait": ""
@@ -671,6 +742,7 @@
    "titre": "Parcoursup, bourses, classes de lycée… cinq mesures annoncées par le gouvernement",
    "lien": "https://www.corsematin.com/article/societe/4140738366961/parcoursup-bourses-classes-de-lycee-cinq-mesures-annoncees-par-le-gouvernement",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-26T14:23:06+00:00",
    "image": "",
    "extrait": ""
@@ -679,6 +751,7 @@
    "titre": "À Venacu, l'association Avanzà inseme per Venacu alerte sur les dangers de la RT20",
    "lien": "https://stampa-paese.com/actus-societe/article/venacu-lassociation-avanza-inseme-venacu-alerte-sur-les-dangers-de-la-rt20",
    "source": "paese",
+   "rubrique": "autres",
    "date": "2026-10-26T14:13:55+00:00",
    "image": "",
    "extrait": ""
@@ -687,6 +760,7 @@
    "titre": "Vivario se souvient de la terrible avalanche qui frappait le village il y a 50 ans",
    "lien": "https://www.corsenetinfos.corsica/Vivario-se-souvient-de-la-terrible-avalanche-qui-frappait-le-village-il-y-a-50-ans_a93351.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-26T14:10:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98496967-68689299.jpg?v=1793021808",
    "extrait": "Ce dimanche 25 octobre, plus d’une centaine de personnes se sont rassemblées à Vivario pour commémorer les 50 ans de la catastrophe qui avait frappé le village le 25 octobre 1976. Une terrible…"
@@ -695,6 +769,7 @@
    "titre": "SC Bastia : l’Être et le Néant",
    "lien": "https://www.corsenetinfos.corsica/SC-Bastia-l-Etre-et-le-Neant_a93355.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-26T14:06:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98499918-68691885.jpg?v=1793024004",
    "extrait": "Après dix journées de Ligue 3, le Sporting Club de Bastia affiche un bilan de 12 points, trois victoires, trois matchs nuls et quatre défaites, sans le moindre succès à domicile. Éliminés au 6e tour…"
@@ -703,6 +778,7 @@
    "titre": "Le club d’aviron de Tolla-Prunelli, Vingt-huit ans d’une histoire collective",
    "lien": "https://stampa-paese.com/actus-societe/article/le-club-daviron-de-tolla-prunelli-vingt-huit-ans-dune-histoire-collective",
    "source": "paese",
+   "rubrique": "sport",
    "date": "2026-10-26T14:03:51+00:00",
    "image": "",
    "extrait": ""
@@ -711,6 +787,7 @@
    "titre": "À San-Martino-di-Lota, avant Chez Henri, \"il n'y avait plus de vie au village \"",
    "lien": "https://www.corsematin.com/article/societe/2848317848434714/a-san-martino-di-lota-avant-chez-henri-il-ny-avait-plus-de-vie-au-village",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-26T14:00:01+00:00",
    "image": "",
    "extrait": ""
@@ -719,6 +796,7 @@
    "titre": "Avec Kcantà, Francine Massiani porte la langue corse au-delà de l'île",
    "lien": "https://www.corsematin.com/article/culture-loisirs/49175666998923/avec-kcanta-francine-massiani-porte-la-langue-corse-au-dela-de-lile",
    "source": "cm",
+   "rubrique": "langue",
    "date": "2026-10-26T13:00:02+00:00",
    "image": "",
    "extrait": ""
@@ -727,6 +805,7 @@
    "titre": "L'ancienne ministre de la Santé Michèle Barzach est morte à l'âge de 83 ans",
    "lien": "https://www.corsematin.com/article/politique/33817754736495/lancienne-ministre-de-la-sante-michele-barzach-est-morte-a-lage-de-83-ans",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-26T12:53:34+00:00",
    "image": "",
    "extrait": ""
@@ -735,6 +814,7 @@
    "titre": "50 ans après la catastrophe, Vivario commémore \"l'avalanche\" meurtrière du 25 octobre 1976",
    "lien": "https://france3-regions.franceinfo.fr/corse/50-ans-apres-la-catastrophe-vivario-commemore-l-avalanche-meurtriere-du-25-octobre-1976-3439335.html",
    "source": "f3",
+   "rubrique": "autres",
    "date": "2026-10-26T12:10:36+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/I4B_tW-29MWxs90yTPe2pVD-3Ak/930x620/filters:format(webp)/regions/2026/10/26/6adf41e7ad23c239377187.jpg",
    "extrait": "Ce dimanche 25 octobre, une stèle a été inaugurée à Vivario, cinquante ans après la catastrophe survenue en 1976. Un glissement de terrain avait emporté sur son passage trois maisons du village, et…"
@@ -743,6 +823,7 @@
    "titre": "Remèdes aux acnés diverses",
    "lien": "https://www.ici.fr/emissions/beaute-et-bien-etre/remedes-aux-acnes-diverses-6141642?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-26T11:46:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/e6888338-a296-4c27-bc40-d1c3c445cad1/920x517?webp=false",
    "extrait": "Inflammation légère, modérée ou sévère : les traitements varient en fonction de vos besoins"
@@ -751,6 +832,7 @@
    "titre": "Disparition de Pierre Antoine D’Orazio, danseur passionné et acteur de la transmission artistique",
    "lien": "https://www.alta-frequenza.corsica/disparition-de-pierre-antoine-dorazio-danseur-passionne-et-acteur-de-la-transmission-artistique",
    "source": "alta",
+   "rubrique": "culture",
    "date": "2026-10-26T11:37:55+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/pierre-antoine-dorazio-768x767.jpg",
    "extrait": ""
@@ -759,6 +841,7 @@
    "titre": "Ajaccio - Le festival Ritrovu annulé après la disparition du danseur et chorégraphe Pierre-Antoine D'Orazio",
    "lien": "https://www.corsenetinfos.corsica/Ajaccio-Le-festival-Ritrovu-annule-apres-la-disparition-du-danseur-et-choregraphe-Pierre-Antoine-D-Orazio_a93353.html",
    "source": "cni",
+   "rubrique": "culture",
    "date": "2026-10-26T11:15:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98497822-68690458.jpg?v=1793013992",
    "extrait": "Danseur, chorégraphe et professeur de danse bien connu à Ajaccio, Pierre-Antoine d’Orazio est décédé ce dimanche 25 octobre, à seulement 47 ans. Une disparition qui suscite une vive émotion dans la…"
@@ -767,6 +850,7 @@
    "titre": "Concours Archi Jeunes : deux scénarios pour donner une nouvelle vie aux casernes Montlaur de Bonifacio",
    "lien": "https://www.corsematin.com/article/societe/18108748069844/concours-archi-jeunes-deux-scenarios-pour-donner-une-nouvelle-vie-aux-casernes-montlaur-de-bonifacio",
    "source": "cm",
+   "rubrique": "autres",
    "date": "2026-10-26T11:00:01+00:00",
    "image": "",
    "extrait": ""
@@ -775,6 +859,7 @@
    "titre": "À Bastia, le patrimoine se met à l’heure d’Halloween",
    "lien": "https://www.corsenetinfos.corsica/A-Bastia-le-patrimoine-se-met-a-l-heure-d-Halloween_a93289.html",
    "source": "cni",
+   "rubrique": "culture",
    "date": "2026-10-26T11:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98457748-68662716.jpg?v=1792660407",
    "extrait": "Halloween ne se cantonne plus aux films d’horreur et aux soirées à thème. Cette fête est aussi l’occasion pour les acteurs du patrimoine de diversifier leur offre de visites. À Bastia, l’historienne…"
@@ -783,6 +868,7 @@
    "titre": "Emmanuel Macron attendu à Marseille ce lundi pour souligner le \"retour de l'ordre\"",
    "lien": "https://www.corsematin.com/article/politique/26784114388727/emmanuel-macron-attendu-a-marseille-ce-lundi-pour-souligner-le-retour-de-lordre",
    "source": "cm",
+   "rubrique": "politique",
    "date": "2026-10-26T10:52:21+00:00",
    "image": "",
    "extrait": ""
@@ -791,6 +877,7 @@
    "titre": "Ajaccio : Pierre-Antoine d'Orazio, une vie consacrée à la danse et à sa transmission, s'est éteint",
    "lien": "https://www.corsematin.com/article/societe/14987873559150/ajaccio-pierre-antoine-dorazio-une-vie-consacree-a-la-danse-et-a-sa-transmission-sest-eteint",
    "source": "cm",
+   "rubrique": "culture",
    "date": "2026-10-26T10:38:58+00:00",
    "image": "",
    "extrait": ""
@@ -799,6 +886,7 @@
    "titre": "Pierre-Antoine d’Orazio, figure de la danse ajaccienne, est décédé",
    "lien": "https://www.ici.fr/corse/pierre-antoine-d-orazio-figure-de-la-danse-ajaccienne-est-decede-6650452?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "culture",
    "date": "2026-10-26T10:26:58+00:00",
    "image": "https://www.ici.fr/pikapi/images/cab49850-21f8-46d3-a5e7-9a4f1bcb7330/920x517?webp=false",
    "extrait": "La disparition tragique de Pierre-Antoine d’Orazio, danseur, chorégraphe et directeur de l’École municipale de danse d’Ajaccio émeut le monde culturel corse. A ce titre, l’Office de Tourisme du Pays…"
@@ -807,6 +895,7 @@
    "titre": "Le festival Ritrovu annulé en raison d’une tragique disparition à Aiacciu",
    "lien": "https://www.alta-frequenza.corsica/le-festival-ritrovu-annule-en-raison-dune-tragique-disparition-a-aiacciu",
    "source": "alta",
+   "rubrique": "culture",
    "date": "2026-10-26T10:06:51+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Boulevard-Lantivy-Ajaccio-Alta-768x511.jpg",
    "extrait": ""
@@ -815,6 +904,7 @@
    "titre": "À Sagone, Sant'Appianu prépare l'ouverture de son centre d'interprétation",
    "lien": "https://www.corsematin.com/article/culture-loisirs/1743921293087414/a-sagone-santappianu-prepare-louverture-de-son-centre-dinterpretation",
    "source": "cm",
+   "rubrique": "culture",
    "date": "2026-10-26T10:00:01+00:00",
    "image": "",
    "extrait": ""
@@ -823,6 +913,7 @@
    "titre": "Sessione urdinaria di l'Assemblea di Corsica di i 5 è 6 di nuvembre di u 2026",
    "lien": "https://www.isula.corsica/Sessione-urdinaria-di-l-Assemblea-di-Corsica-di-i-5-e-6-di-nuvembre-di-u-2026_a6317.html",
    "source": "isula",
+   "rubrique": "politique",
    "date": "2026-10-26T09:47:00+00:00",
    "image": "",
    "extrait": "L'Assemblée de Corse se réunira en session ordinaire les jeudi 5 et vendredi 6 novembre 2026 à partir de 9h30. La Commission Permanente se réunira le mercredi 4 novembre 2026 à partir de 14h30 pour…"
@@ -831,6 +922,7 @@
    "titre": "Autonomie de la Corse : que contient le texte qui sera examiné au Sénat ce lundi ?",
    "lien": "https://france3-regions.franceinfo.fr/corse/autonomie-de-la-corse-que-contient-le-texte-qui-sera-examine-au-senat-lundi-3438648.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-26T08:45:49+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/DM4_gENKsoWhPRPaf7uUJkP9Gvs/930x620/filters:format(webp)/regions/2020/11/24/5fbcf34ab7acc_senat_3-5093412.jpg",
    "extrait": "Le projet de loi constitutionnelle \"pour une Corse autonome au sein de la République\", sera discuté en séance publique au Sénat, ce lundi 26 octobre. Pouvoir législatif, consultation des Corses…"
@@ -839,6 +931,7 @@
    "titre": "« Autonomie de la Corse : Josepha Giacometti Piredda estime que le processus de Beauvau a échoué »",
    "lien": "https://www.corsicainfurmazione.org/2030483/autonomie-de-la-corse-josepha-giacometti-piredda-estime-que-le-processus-de-beauvau-a-echoue/2026/",
    "source": "infurm",
+   "rubrique": "politique",
    "date": "2026-10-26T08:41:52+00:00",
    "image": "",
    "extrait": "(Corsicainfurmazione.org, Unità Naziunale, Publié le 26 octobre 2026) À l’approche du vote du Sénat sur le projet de loi constitutionnelle relatif à l’autonomie de la Corse, Josepha Giacometti…"
@@ -847,6 +940,7 @@
    "titre": "« Sperienza » : À Bastia trois rendez-vous pour écouter et ressentir du son",
    "lien": "https://www.corsenetinfos.corsica/Sperienza-A-Bastia-trois-rendez-vous-pour-ecouter-et-ressentir-du-son_a93350.html",
    "source": "cni",
+   "rubrique": "culture",
    "date": "2026-10-26T08:33:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98496424-68688696.jpg?v=1793043397",
    "extrait": "Cette nouvelle manifestation initiée par l’association Zone Libre se veut une façon d’écouter et de ressentir le son. Pas de scène, pas de distance : les artistes jouent au plus près des spectateurs…"
@@ -855,6 +949,7 @@
    "titre": "À Calvi, un garage solidaire pour faire de la mobilité un levier d’insertion",
    "lien": "https://www.ici.fr/emissions/les-experts-ici-rcfm/a-calvi-un-garage-solidaire-pour-faire-de-la-mobilite-un-levier-d-insertion-6946430?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-26T08:03:45+00:00",
    "image": "",
    "extrait": "En Balagne, le garage solidaire de Calvi, porté par l’association SOLIDERIA, entend faciliter l’accès à la mobilité des personnes aux revenus modestes."
@@ -863,6 +958,7 @@
    "titre": "Qui sera sacré ballon d'or 2026 : retrouvez les listes des nommé(e)s",
    "lien": "https://www.corsematin.com/article/sports/12866206368143/qui-sera-sacre-ballon-dor-2026-retrouvez-les-listes-des-nomme-e-s",
    "source": "cm",
+   "rubrique": "sport",
    "date": "2026-10-26T07:04:22+00:00",
    "image": "",
    "extrait": ""
@@ -871,6 +967,7 @@
    "titre": "Autonomie de la Corse : le Sénat, divisé, à la recherche d'une \"voie de passage\"",
    "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-le-Senat-divise-a-la-recherche-d-une-voie-de-passage_a93352.html",
    "source": "cni",
+   "rubrique": "politique",
    "date": "2026-10-26T07:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98497682-68690374.jpg?v=1793012981",
    "extrait": "La réforme constitutionnelle visant à accorder plus d'autonomie à la Corse arrive ce lundi après-midi au Sénat, étape la plus périlleuse dans son parcours législatif en raison des réticences de la…"
@@ -879,6 +976,7 @@
    "titre": "U GFCA volley hà vintu pà a prima volta lla staghjoni fora, in issu campiunatu di siconda divisioni",
    "lien": "https://www.alta-frequenza.corsica/u-gfca-volley-ha-vintu-pa-a-prima-volta-lla-staghjoni-fora-in-issu-campiunatu-di-siconda-divisioni",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-26T06:39:09+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Volley-GFCA-Palatinu-Alta-768x432.jpg",
    "extrait": ""
@@ -887,6 +985,7 @@
    "titre": "L’autonomie de la Corse examinée par le Sénat ce lundi",
    "lien": "https://www.alta-frequenza.corsica/lautonomie-de-la-corse-examinee-par-le-senat-ce-lundi",
    "source": "alta",
+   "rubrique": "politique",
    "date": "2026-10-26T06:37:22+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/senatoriales_pour_qui_et_pourquoi-768x349.jpg",
    "extrait": ""
@@ -895,6 +994,7 @@
    "titre": "Sabbatu, erani centu o à pena di più à essa si accolti in Bastia davanti à a prifittura llu Cismonti, in u quadru di u muvimentu suciali è liceanu",
    "lien": "https://www.alta-frequenza.corsica/sabbatu-erani-centu-o-a-pena-di-piu-a-essa-si-accolti-in-bastia-davanti-a-a-prifittura-llu-cismonti-in-u-quadru-di-u-muvimentu-suciali-e-liceanu",
    "source": "alta",
+   "rubrique": "politique",
    "date": "2026-10-26T06:35:06+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/manif-bastia-768x432.jpg",
    "extrait": ""
@@ -903,6 +1003,7 @@
    "titre": "Les parents d’un bébé mort il y a huit ans suite à un accouchement à l’hôpital de Bastia demandent que justice soit faite",
    "lien": "https://www.alta-frequenza.corsica/les-parents-dun-bebe-mort-il-y-a-huit-ans-suite-a-un-accouchement-a-lhopital-de-bastia-demandent-que-justice-soit-faite",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-26T06:29:34+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/coubris.jpg",
    "extrait": ""
@@ -911,6 +1012,7 @@
    "titre": "A maghjina - Culori di vaghjime à l’orizonte",
    "lien": "https://www.corsenetinfos.corsica/A-maghjina-Culori-di-vaghjime-a-l-orizonte_a93334.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-26T06:05:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98483570-68681513.jpg?v=1792865807",
    "extrait": "Depuis la piste Strada di u Chjusacciu, au hameau de Partine, le regard plonge sur la marine de Miomo et la Méditerranée, entre les couleurs automnales du maquis et les reflets argentés de la mer…"
@@ -919,6 +1021,7 @@
    "titre": "Feu de forêt de Meria : 30 hectares détruits",
    "lien": "https://www.alta-frequenza.corsica/feu-de-foret-de-meria-30-hectares-detruits",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-26T06:04:53+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/1-768x512.jpeg",
    "extrait": ""
@@ -927,6 +1030,7 @@
    "titre": "Un accident de la circulation fait deux blessés à Bastia",
    "lien": "https://www.alta-frequenza.corsica/un-accident-de-la-circulation-fait-deux-blesses-a-bastia",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-26T06:00:14+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/venaco_un_incendie_a_deja_detruit_30_hectares_et_menace_une_bergerie-768x432.jpg",
    "extrait": ""
@@ -935,6 +1039,7 @@
    "titre": "U tempu in Corsica",
    "lien": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93336.html",
    "source": "cni",
+   "rubrique": "autres",
    "date": "2026-10-26T06:00:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98483577-68681523.jpg?v=1792865592",
    "extrait": "Ce lundi, la Corse devrait profiter d’une journée plutôt douce, avec un ciel partagé entre nuages et éclaircies. Le soleil devrait être davantage présent sur la côte est, tandis que des nuages…"
@@ -943,6 +1048,7 @@
    "titre": "Météo pour ce lundi 26 octobre 2026 en Corse",
    "lien": "https://www.alta-frequenza.corsica/meteo-pour-ce-lundi-26-octobre-2026-en-corse",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-26T05:50:39+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/1-Meteo-3.jpg",
    "extrait": ""
@@ -951,6 +1057,7 @@
    "titre": "Vennari à nantu à u campus Grimaldi di l’Università di Corsica, si hè fatta a sustinanza di a tesi di midicina di Baptiste Borelli, anzianu studianti di a PACES (2017/2018)",
    "lien": "https://www.alta-frequenza.corsica/vennari-a-nantu-a-u-campus-grimaldi-di-luniversita-di-corsica-si-he-fatta-a-sustinanza-di-a-tesi-di-midicina-di-baptiste-borelli-anzianu-studianti-di-a-paces-2017-2018",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-26T05:44:32+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Universite-de-Corte-Alta-2-768x576.jpg",
    "extrait": ""
@@ -959,6 +1066,7 @@
    "titre": "Congrès des maires 2A : les attentes de Jean-Charles Orsucci",
    "lien": "https://www.alta-frequenza.corsica/congres-des-maires-2a-les-attentes-de-jean-charles-orsucci",
    "source": "alta",
+   "rubrique": "politique",
    "date": "2026-10-26T05:39:04+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/congres-maires-2A-de-2026-orucci-768x576.jpg",
    "extrait": ""
@@ -967,6 +1075,7 @@
    "titre": "L'Université de Corse au cœur du 73e congrès national de l'Union des professeurs de physique et de chimie",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11577",
    "source": "univ",
+   "rubrique": "culture",
    "date": "2026-10-25T23:00:00+00:00",
    "image": "",
    "extrait": "Du 27 au 29 octobre 2026, la ville de Bastia accueillera le 73e congrès national de l'Union des professeurs de physique et de chimie (UdPPC). Organisé au centre culturel Alb'Oru, cet événement…"
@@ -975,6 +1084,7 @@
    "titre": "REPORT : Conférence Vannina Marchi van Cauwelaert",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11738",
    "source": "univ",
+   "rubrique": "culture",
    "date": "2026-10-25T23:00:00+00:00",
    "image": "",
    "extrait": "Dans le cadre du festival RITROVU et du partenariat avec l'Association Arcu di Sapè, Vannina Marchi van Cauwelaert donnera une conférence \" L’archipel corso-sarde, du XIIIe au XVe siècle\" le 31…"
@@ -983,6 +1093,7 @@
    "titre": "Rugby : un week-end difficile pour les clubs corses",
    "lien": "https://www.corsenetinfos.corsica/Rugby-un-week-end-difficile-pour-les-clubs-corses_a93348.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-25T20:44:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98493216-68686510.jpg?v=1792961159",
    "extrait": "Les clubs corses ont connu une journée difficile en championnats territoriaux de la Ligue Sud, marquée par trois défaites en Régionale 2, dont deux particulièrement serrées pour Bastia XV et le CRAB…"
@@ -991,6 +1102,7 @@
    "titre": "Trail de Bonifacio : Régis Rico et Judith Rebmann vainqueurs de l'édition 2026",
    "lien": "https://www.corsenetinfos.corsica/Trail-de-Bonifacio-Regis-Rico-et-Judith-Rebmann-vainqueurs-de-l-edition-2026_a93347.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-25T20:05:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98492901-68686429.jpg?v=1792959070",
    "extrait": "Organisé par le club des Trailers de l'Extrême Sud, le Trail de Bonifacio a rassemblé ce dimanche plus de 1 100 inscrits répartis entre les courses des 17 et 8 kilomètres, la marche ainsi que le…"
@@ -999,6 +1111,7 @@
    "titre": "Football - Le Sud victorieux, un bon nul pour l'AS Porto-Vecchio",
    "lien": "https://www.corsenetinfos.corsica/Football-Le-Sud-victorieux-un-bon-nul-pour-l-AS-Porto-Vecchio_a93345.html",
    "source": "cni",
+   "rubrique": "sport",
    "date": "2026-10-25T19:27:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98492414-68686264.jpg?v=1792956458",
    "extrait": "Cette nouvelle journée de championnat régional a été globalement favorable aux clubs du Grand Sud, avec notamment une victoire du Sud FC en Régional 1 et de la réserve de l'ASVP en Régional 3. Les…"
@@ -1007,6 +1120,7 @@
    "titre": "Bastia : deux blessés dans un accident de la circulation",
    "lien": "https://www.corsenetinfos.corsica/Bastia-deux-blesses-dans-un-accident-de-la-circulation_a93346.html",
    "source": "cni",
+   "rubrique": "faits-divers",
    "date": "2026-10-25T19:19:00+00:00",
    "image": "https://www.corsenetinfos.corsica/photo/art/default/98492421-68686278.jpg?v=1792956044",
    "extrait": "Un accident de la circulation impliquant une moto et un véhicule léger s’est produit ce dimanche vers 18h à Bastia, avenue Maréchal-Sebastiani, indique le service d’incendie et de secours de…"
@@ -1015,6 +1129,7 @@
    "titre": "Coupe de France : le FC Balagne élimine Borgo aux tirs au but et rejoint Furiani au 7e tour (1-1 6-7 TAB)",
    "lien": "https://www.ici.fr/corse/haute-corse-2b/borgo/coupe-de-france-le-fc-balagne-elimine-borgo-aux-tirs-aux-buts-et-rejoint-furiani-au-7e-tour-9815157?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "sport",
    "date": "2026-10-25T18:08:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/ac1919a6-9349-4a7b-b70a-c9fe65866489/920x517?webp=false",
    "extrait": "Le FC Balagne sera donc le deuxième représentant corse en Coupe de France. Une belle performance des hommes de Nicolas Huysman, 2e ex æquo de leur championnat de National 2, qui éliminent le FC…"
@@ -1023,6 +1138,7 @@
    "titre": "VIDÉO. Guillaume Santini et Jérôme Camilli remportent la Ronde de la Giraglia 2026",
    "lien": "https://france3-regions.franceinfo.fr/corse/video-guillaume-santini-et-jerome-camilli-remportent-la-ronde-de-la-giraglia-2026-3439098.html",
    "source": "f3",
+   "rubrique": "sport",
    "date": "2026-10-25T17:05:51+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/DuoWg-frt9_KnAPY9CAbZdL3Ns4/930x620/filters:format(webp)/regions/2026/10/25/6ade36d524c89191191786.jpg",
    "extrait": "Ce sont les Capcorsins Santini et Camilli, sur leurs terres, qui ont terminé sur la plus haute marche du podium de cette 53e Giraglia."
@@ -1031,6 +1147,7 @@
    "titre": "VIDÉO. Quels sont les rapports de force au Sénat avant l'examen de la loi sur l'autonomie de la Corse",
    "lien": "https://france3-regions.franceinfo.fr/corse/video-quels-sont-les-rapports-de-force-au-senat-avant-l-examen-de-la-loi-sur-l-autonomie-de-la-corse-3438489.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-25T16:57:23+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/qMIMi8Uiz2e1Ch8bX5hDu366t78/930x620/filters:format(webp)/regions/2026/10/23/6adb75f71cfd1294777687.jpg",
    "extrait": "#POLITIQUE #autonomiedelacorse - Alors que le Sénat examinera cet après-midi le projet de loi constitutionnelle sur l'Autonomie de la Corse on vous explique ce que l'on sait du rapport de force entre…"
@@ -1039,6 +1156,7 @@
    "titre": "Autonomie de la Corse : quels sont les rapports de force au Sénat avant l'examen du texte ?",
    "lien": "https://france3-regions.franceinfo.fr/corse/autonomie-de-la-corse-quels-sont-les-rapports-de-force-au-senat-avant-l-examen-du-texte-3438798.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-25T15:56:08+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/7JEMGpQi1eR_b9Q1Jhh0tWZRHd8/930x620/filters:format(webp)/regions/2025/05/08/s-syndicats-nouvelle-organisation-cci-00-01-39-16-681c44ce2db96433177931.jpg",
    "extrait": "Le projet de loi constitutionnelle sur l'autonomie de la Corse sera examiné à partir de ce lundi au Sénat. Si la Chambre haute est réputée hostile à ce nouveau statut, quels sont les rapports de…"
@@ -1047,6 +1165,7 @@
    "titre": "Départ de feu à Meria, 35 hectares parcourus",
    "lien": "https://france3-regions.franceinfo.fr/corse/depart-de-feu-a-meria-la-rd-80-fermee-3438957.html",
    "source": "f3",
+   "rubrique": "faits-divers",
    "date": "2026-10-25T14:32:34+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/mit__MKccp16MBrkHZEWnFGfBvk/930x620/filters:format(webp)/regions/2026/10/25/6addeff9656d1440231973.jpg",
    "extrait": "Ce dimanche 25 octobre, un feu s'est déclaré sur la commune de Meria, au lieu-dit Morteda. Pour l'heure, 35 hectares ont été parcourus par les flammes. Un temps fermée, la RD 80 est désormais ouverte…"
@@ -1055,6 +1174,7 @@
    "titre": "Alerte aux fortes vagues en Corse-du-Sud",
    "lien": "https://www.ici.fr/corse/alerte-aux-fortes-vagues-en-corse-du-sud-4581751?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-25T13:28:47+00:00",
    "image": "https://www.ici.fr/pikapi/images/fcbd3a84-a18a-4f9f-b917-743668fe6e0e/920x517?webp=false",
    "extrait": "La préfecture de Corse-du-Sud appelle à la vigilance en raison des fortes vagues qui vont toucher le littoral ouest du département à compter de ce soir."
@@ -1063,6 +1183,7 @@
    "titre": "Une trentaine d'hectares parcourus par les flammes en Haute-Corse, la pluie en renfort des pompiers",
    "lien": "https://www.ici.fr/corse/haute-corse-dans-le-cap-un-incendie-parcourt-jusqu-a-20-hectares-de-maquis-a-meria-la-rd-80-fermee-a-la-circulation-4986511?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "faits-divers",
    "date": "2026-10-25T12:29:04+00:00",
    "image": "https://www.ici.fr/pikapi/images/3a3c26cb-111d-4b1e-a30a-92cb5dc09f21/920x517?webp=false",
    "extrait": "La pluie est arrivée quelques heures après un départ de feu sur la commune de Meria, dans le Cap-Corse. Attisées par un Libecciu soufflant jusqu'à 60 km/h, les flammes parcouru près de 30 hectare. Le…"
@@ -1071,6 +1192,7 @@
    "titre": "Meria : près de vingt hectares déjà détruits par un incendie",
    "lien": "https://www.alta-frequenza.corsica/meria-pres-de-vingt-hectares-deja-detruits-par-un-incendie",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-25T12:14:14+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/WhatsApp-Image-2026-10-25-at-13.01.51-768x512.jpeg",
    "extrait": ""
@@ -1079,6 +1201,7 @@
    "titre": "REPLAY Coupe de France, 6e tour : victoire de l'AS Furiani-Agliani 1 à 0 face au SC Bastia",
    "lien": "https://france3-regions.franceinfo.fr/corse/direct-foot-coupe-de-france-6e-tour-suivez-la-rencontre-sc-bastia-as-furiani-agliani-au-stade-armand-cesari-3437883.html",
    "source": "f3",
+   "rubrique": "sport",
    "date": "2026-10-25T10:30:26+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/j5A5n5SvAxriSESzMdsPkK1t9Jo/930x620/filters:format(webp)/regions/2026/10/24/6add16c287fab290788431.jpg",
    "extrait": "Au terme d'un match très disputé, le SC Bastia n'a pas pu revenir au score et s'incline 1 à 0 face à l'AS Furiani Agliani. Le seul but de la rencontre a été marqué à la 33e minutes par Christophe…"
@@ -1087,6 +1210,7 @@
    "titre": "Une soirée caritative organisée par le SIS de la Haute-Corse au profit des orphelins des sapeurs pompiers",
    "lien": "https://www.ici.fr/corse/une-soiree-caritative-organisee-par-le-sis-de-la-haute-corse-au-profit-des-orphelins-des-sapeurs-pompiers-4359466?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "culture",
    "date": "2026-10-25T10:11:57+00:00",
    "image": "https://www.ici.fr/pikapi/images/976448e8-3f31-4f23-a7f8-6157c77e8e84/920x517?webp=false",
    "extrait": "Les pompiers de Haute-Corse organise une grande soirée caritative le 12 novembre à Biguglia. Une soirée musicale solidaire à l'espace Carlu Rocchi. Les fonds récoltés seront reversés au profit de…"
@@ -1095,6 +1219,7 @@
    "titre": "Mobilisation du 24 octobre : une centaine de personnes a manifesté à Bastia",
    "lien": "https://france3-regions.franceinfo.fr/corse/mobilisation-du-24-octobre-une-centaine-de-personnes-a-manifeste-a-bastia-3438747.html",
    "source": "f3",
+   "rubrique": "autres",
    "date": "2026-10-25T09:11:12+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/4Y2-lMkZ1xxS3lA2LeEHo1ZrGfM/930x620/filters:format(webp)/regions/2026/10/24/6adcceb6e6497977847224.jpg",
    "extrait": "Une centaine de personnes a manifesté samedi à Bastia, dans le cadre de la journée de mobilisation nationale du 24 octobre. Le rassemblement s'est déroulé dans le calme."
@@ -1103,6 +1228,7 @@
    "titre": "Premio del Libro Corso: i cinque vincitori premiati ad Aleria sotto il segno della Romanità",
    "lien": "https://www.corsicaoggi.com/sito/premio-del-libro-corso-i-cinque-vincitori-premiati-ad-aleria-sotto-il-segno-della-romanita/",
    "source": "oggi",
+   "rubrique": "langue",
    "date": "2026-10-25T09:05:58+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/10/foto-livre-corse-aleria-1-150x150.jpg",
    "extrait": "Per l’edizione 2026, la giuria del Premio del Libro Corso ha premiato 5 scrittori per varie opere nei campi della storia, del patrimonio, della gioventù e della lingua corsa. Quest’anno, il comune di…"
@@ -1111,6 +1237,7 @@
    "titre": "Football (Ligue 3) – SC Bastia : et maintenant, que faire face à une crise profonde ?",
    "lien": "https://www.alta-frequenza.corsica/football-ligue-3-sc-bastia-et-maintenant-que-faire-face-a-une-crise-profonde",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-25T07:55:30+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/football_ligue_3_des_departs_et_une_arrivee_au_sc_bastia-768x432.jpg",
    "extrait": ""
@@ -1119,6 +1246,7 @@
    "titre": "Un motard de 22 ans meurt dans un accident de la route à Ventiseri",
    "lien": "https://france3-regions.franceinfo.fr/corse/un-motard-de-22-ans-meurt-dans-un-accident-de-la-route-a-ventiseri-3438792.html",
    "source": "f3",
+   "rubrique": "faits-divers",
    "date": "2026-10-25T06:49:37+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/LMN6flerpcfX6QXFRKKK-2MrWkw/930x620/filters:format(webp)/regions/2026/06/20/6a36cdfe5e8be824237910.jpg",
    "extrait": "Ce samedi 24 octobre, un motard de 22 ans est décédé dans un accident de la circulation, sur la commune de Ventiseri. D’importants moyens de secours ont été mobilisés. La circulation a été…"
@@ -1127,6 +1255,7 @@
    "titre": "Drame de la route à Ventiseri : un jeune motard de 22 ans perd la vie",
    "lien": "https://www.alta-frequenza.corsica/drame-de-la-route-a-ventiseri-un-jeune-motard-de-22-ans-perd-la-vie",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-25T06:03:56+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Pompiers-feu-2B-Alta-1-768x432.jpg",
    "extrait": ""
@@ -1135,6 +1264,7 @@
    "titre": "Coupe de France : Christophe Vincent élimine le Sporting Club de Bastia (0-1)",
    "lien": "https://www.ici.fr/corse/haute-corse-2b/bastia/coupe-de-france-christophe-vincent-elimine-le-sporting-club-de-bastia-0-1-7286296?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "sport",
    "date": "2026-10-24T21:41:38+00:00",
    "image": "https://www.ici.fr/pikapi/images/f8dcc16d-bc31-47da-a50c-02ae77a6a1a6/920x517?webp=false",
    "extrait": "Vainqueur au stade Armand-Cesari, l’AS Furiani-Agliani représentera le football corse à l’échelle nationale lors du septième tour de la Coupe de France, au détriment d’un Sporting Club de Bastia…"
@@ -1143,6 +1273,7 @@
    "titre": "Football (Coupe de France) – L’AS Furiani-Agliani (N1) surclasse le SC Bastia (L3) et se qualifie pour le 7e tour (0-1)",
    "lien": "https://www.alta-frequenza.corsica/football-coupe-de-france-las-furiani-agliani-n1-surclasse-le-sc-bastia-l3-et-se-qualifie-pour-le-7e-tour-0-1",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-24T19:59:40+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/20261024_203758-768x432.jpg",
    "extrait": ""
@@ -1151,6 +1282,7 @@
    "titre": "Santini performe, Rossi abandonne : le point sur la deuxième journée de la Giraglia 2026",
    "lien": "https://france3-regions.franceinfo.fr/corse/santini-performe-rossi-abandonne-le-point-sur-la-deuxieme-journee-de-la-giraglia-2026-3438771.html",
    "source": "f3",
+   "rubrique": "sport",
    "date": "2026-10-24T17:26:28+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/Ex_TQdwFNcTth0eKer64XZVlpO4/930x620/filters:format(webp)/regions/2026/10/24/6adce83dda120352879548.jpg",
    "extrait": "Ce samedi 24 octobre, se tenait dans le Cap Corse la 56e ronde nationale de la Giraglia. Avec au programme 4 spéciales dans la journée, entre Luri et Barrettali et Pino-Centuri."
@@ -1159,6 +1291,7 @@
    "titre": "\"La France devrait prendre exemple sur la Corse\" selon Sarah Knafo",
    "lien": "https://www.ici.fr/corse/sarah-knafo-la-france-devrait-prendre-exemple-sur-la-corse-5908608?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-24T16:49:01+00:00",
    "image": "https://www.ici.fr/pikapi/images/818cf5e7-8417-4a62-be44-5134691681ae/920x517?webp=false",
    "extrait": "Plusieurs centaines de personnes se sont rendues samedi à Ajaccio à la rencontre de Sarah Knafo, eurodéputée élue sous l'étiquette de Reconquête, qui dédicaçait son livre, \"Le casse du siècle\"."
@@ -1167,6 +1300,7 @@
    "titre": "VIDÉO. \"De grâce n'empêchons pas l'autonomie de prendre naissance dès ce mois-ci\" : retrouvez le Pulitica consacré au débat sénatorial",
    "lien": "https://france3-regions.franceinfo.fr/corse/video-de-grace-n-empechons-pas-l-autonomie-de-prendre-naissance-des-ce-mois-ci-retrouvez-le-pulitica-consacre-au-debat-senatorial-3438684.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-24T15:40:04+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/nFG7soaPpH_4akxOao762Bc2h5I/930x620/filters:format(webp)/regions/2026/10/24/6adcd046f20c3221175773.jpg",
    "extrait": "Le texte sur l'autonomie de la Corse issu de l’Assemblée nationale sera débattu lundi au Sénat, où les discussions s’annoncent décisives pour la suite du processus. Sur le plateau de Pulitica, nous…"
@@ -1175,6 +1309,7 @@
    "titre": "Mobilisation du 24 octobre : à Bastia, une centaine de personnes réunies dans le calme",
    "lien": "https://www.ici.fr/corse/haute-corse-2b/bastia/manifestation-du-24-octobre-a-bastia-une-centaine-de-personnes-reunie-dans-le-calme-4444163?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-24T15:13:07+00:00",
    "image": "https://www.ici.fr/pikapi/images/1f5c5f79-03ac-4f1b-801b-454356c2d9c5/920x517?webp=false",
    "extrait": "Devant la préfecture de Bastia, l’acte 2 des manifestations qui secouent la France entière a eu lieu. Elles se sont déroulées dans le calme et sans incident notable. Un appel à la grève a été…"
@@ -1183,6 +1318,7 @@
    "titre": "VIDÉO. Justice : huit ans après la mort de leur enfant, les parents attendent un procès",
    "lien": "https://france3-regions.franceinfo.fr/corse/video-justice-huit-ans-apres-la-mort-de-leur-enfant-les-parents-attendent-un-proces-3438702.html",
    "source": "f3",
+   "rubrique": "faits-divers",
    "date": "2026-10-24T10:36:36+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/7Wzpv5dqLcQZCinpoZAcHS6omto/930x620/filters:format(webp)/regions/2026/10/24/6adc8a09bf470807046077.png",
    "extrait": "Une sage-femme mise en examen pour homicide involontaire. Les faits qui lui sont reprochés remontent à 2018. Exerçant à l’hôpital de Bastia, elle aurait commis une série de négligences ayant entraîné…"
@@ -1191,6 +1327,7 @@
    "titre": "Des livres et du cinéma, ici RCFM : La Gradiva",
    "lien": "https://www.ici.fr/emissions/des-livres-et-du-cinema/des-livres-et-du-cinema-ici-rcfm-la-gradiva-2829072?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "culture",
    "date": "2026-10-24T10:00:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/213086ae-25b7-4345-89ae-0a9bfa6e3298/920x517?webp=false",
    "extrait": "Direction Pompei pour un voyage scolaire pas comme les autres."
@@ -1199,6 +1336,7 @@
    "titre": "Volley (Volstar D2) – Le GFCA se déplace ce soir à Saint-Quentin",
    "lien": "https://www.alta-frequenza.corsica/volley-volstar-d2-le-gfca-se-deplace-ce-soir-a-saint-quentin",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-24T06:31:04+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/3-6-768x600.jpg",
    "extrait": ""
@@ -1207,6 +1345,7 @@
    "titre": "Congrès des maires de Corse-du-Sud : les élus entendent être consultés sur le sujet de l'autonomie",
    "lien": "https://france3-regions.franceinfo.fr/corse/congres-des-maires-de-corse-du-sud-les-elus-entendent-etre-consultes-sur-le-sujet-de-l-autonomie-3438567.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-24T06:14:13+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/SRLCDk3OaT75nX2oVR-pf5LZGJQ/930x620/filters:format(webp)/regions/2026/10/23/6adb96884b328728494379.jpg",
    "extrait": "Les maires de Corse-du-Sud tenaient ce vendredi 23 octobre 2026 leur congrès annuel à Ajaccio. Et sans surprise, à deux jours de l'examen du projet de loi sur l'autonomie de l'île au Sénat, le sujet…"
@@ -1215,6 +1354,7 @@
    "titre": "Venaco : des habitants ont mis en place un barrage filtrant pour dénoncer la vitesse excessive de certains automobilistes dans le village",
    "lien": "https://www.alta-frequenza.corsica/venaco-des-habitants-ont-mis-en-place-un-barrage-filtrant-pour-denoncer-la-vitesse-excessive-de-certains-automobilistes-dans-le-village",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-24T05:46:39+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/1000083034-768x768.jpg",
    "extrait": ""
@@ -1223,6 +1363,7 @@
    "titre": "Football (Coupe de France) – Choc en finale régionale entre le SC Bastia (L3) et l’AS Furiani-Agliani (N1)",
    "lien": "https://www.alta-frequenza.corsica/football-coupe-de-france-choc-en-finale-regionale-entre-le-sc-bastia-l3-et-las-furiani-agliani-n1",
    "source": "alta",
+   "rubrique": "sport",
    "date": "2026-10-24T05:31:02+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/football_ligue_3_le_sc_bastia_se_deplace_a_caen_avec_pour_mission_de_se_reprendre-768x512.jpg",
    "extrait": ""
@@ -1231,6 +1372,7 @@
    "titre": "VIDEO : Autonomie de la Corse , cheminement du projet de loi",
    "lien": "https://france3-regions.franceinfo.fr/corse/video-autonomie-de-la-corse-cheminement-dur-projet-de-loi-3438477.html",
    "source": "f3",
+   "rubrique": "politique",
    "date": "2026-10-23T17:18:14+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/6Ked05oSCLfGoXbCOmPRI6k0X4U/930x620/filters:format(webp)/regions/2026/10/23/6adb741c835c5812807767.png",
    "extrait": "Quel sera le cheminement du projet de loi sur l'autonomie de la Corse ? Paul Salort vous explique"
@@ -1239,6 +1381,7 @@
    "titre": "\"Ça fait huit ans que l'on est dans cette souffrance\" : Après le décès de leur nouveau-né pris en charge à l'hôpital de Bastia, cette famille espère un procès",
    "lien": "https://france3-regions.franceinfo.fr/corse/ca-fait-huit-ans-que-l-on-est-dans-cette-souffrance-apres-le-deces-de-leur-nouveau-ne-pris-en-charge-a-l-hopital-de-bastia-cette-famille-espere-un-proces-3438552.html",
    "source": "f3",
+   "rubrique": "faits-divers",
    "date": "2026-10-23T16:44:47+00:00",
    "image": "https://france3-regions.franceinfo.fr/image/4F6_05RRgQDtdS3HofWjzE-9fl8/930x620/filters:format(webp)/regions/2026/10/23/6adb8e78bdf6f495267667.jpg",
    "extrait": "En 2018, Hylian, nouveau né de la famille Sammarcelli, est décédé. Selon un rapport d'expertise plusieurs négligences auraient été faites par la sage-femme en charge de sa naissance au centre…"
@@ -1247,6 +1390,7 @@
    "titre": "Congrès des maires de la Corse-du-Sud : autonomie et statut de résident au cœur des débats",
    "lien": "https://www.ici.fr/corse/congres-des-maires-de-la-corse-du-sud-autonomie-et-statut-de-resident-au-coeur-des-debats-1538123?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-23T15:51:47+00:00",
    "image": "https://www.ici.fr/pikapi/images/51f7ed0b-ab3e-44ff-97da-acf4962ba5e0/920x517?webp=false",
    "extrait": "L'association des maires et des présidents d'EPCI de la Corse-du-Sud tenait ce samedi à Ajaccio son congrès annuel. Deux sujets ont principalement occupé les débats: le statut de résident et le…"
@@ -1255,6 +1399,7 @@
    "titre": "Haute-Corse : le transport et la détention d’explosifs ou de produits dangereux interdits ce samedi dans le cadre des manifestations",
    "lien": "https://www.alta-frequenza.corsica/haute-corse-le-transport-et-la-detention-dexplosifs-ou-de-produits-dangereux-interdite-ce-samedi-dans-le-cadre-des-manifestations",
    "source": "alta",
+   "rubrique": "autres",
    "date": "2026-10-23T15:37:08+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Police-Alta-Pernici-768x432.jpg",
    "extrait": ""
@@ -1263,6 +1408,7 @@
    "titre": "Autonomie de la Corse : 35 amendements au Sénat et le pouvoir normatif au cœur des débats",
    "lien": "https://www.ici.fr/corse/autonomie-de-la-corse-33-amendements-au-senat-et-le-pouvoir-normatif-au-coeur-des-debats-7862150?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-23T14:35:46+00:00",
    "image": "https://www.ici.fr/pikapi/images/06303627-b2b4-4d81-ba55-fa94bbb50c6a/920x517?webp=false",
    "extrait": "À quelques heures de l’examen en séance publique du projet d'autonomie de la Corse, les amendements déposés dessinent les lignes de fracture entre groupes politiques. Au centre des discussions les…"
@@ -1271,6 +1417,7 @@
    "titre": "Un arrêté de catastrophe naturelle d'ici \"la fin de la semaine prochaine\", après la tempête qui a frappé la Corse mardi",
    "lien": "https://www.ici.fr/corse/un-arrete-de-catastrophe-naturelle-d-ici-la-fin-de-la-semaine-prochaine-apres-la-tempete-qui-a-frappe-la-corse-mardi-8213269?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-23T14:32:42+00:00",
    "image": "https://www.ici.fr/pikapi/images/fe6a24a3-f363-4d36-a3f5-d359afa18111/920x517?webp=false",
    "extrait": "Les collectivités locales touchées par les fortes intempéries de mardi \"pourront bénéficier de l'état de catastrophe naturelle\" de manière accélérée, selon le ministre de la Transition Ecologique, en…"
@@ -1279,6 +1426,7 @@
    "titre": "\"Voyage, voyage\", ICI relance le 2 novembre son grand jeu avec 10.000 euros de vacances à gagner chez Belambra Clubs",
    "lien": "https://www.ici.fr/vie-quotidienne/jeux/voyage-voyage-ici-relance-le-2-novembre-son-grand-jeu-avec-10-000-euros-de-vacances-a-gagner-chez-belambra-clubs-6588777?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-23T14:00:04+00:00",
    "image": "https://www.ici.fr/pikapi/images/c93921f4-19ad-41da-ba0b-36a9aca90511/920x517?webp=false",
    "extrait": "Une envie de vacances ? A partir du lundi 2 novembre et pour toute la semaine, votre radio ICI lance une troisième session de son grand jeu \"Voyage, voyage\" avec Belambra Clubs et offre 10.000 euros…"
@@ -1287,6 +1435,7 @@
    "titre": "Varices et petits vaisseaux apparents : comment les atténuer ?",
    "lien": "https://www.ici.fr/emissions/beaute-et-bien-etre/concernes-par-des-varices-sur-vos-jambes-1277516?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "autres",
    "date": "2026-10-23T10:46:00+00:00",
    "image": "https://www.ici.fr/pikapi/images/ce9c9309-7f6d-4c7f-99d6-480a1f28b1c2/920x517?webp=false",
    "extrait": "Les varices et les petits vaisseaux apparents sur les jambes sont souvent associés aux problèmes de circulation sanguine. Hérédité, habitudes quotidiennes, traitements médicaux : quelles solutions…"
@@ -1295,6 +1444,7 @@
    "titre": "E nostre Tradizione di i Santi cu Linda Piazza direttrice di à biblioteca municipale di Bastia .",
    "lien": "https://www.ici.fr/emissions/u-girandulone/e-nostre-tradizione-di-i-santi-cu-linda-piazza-direttrice-di-a-biblioteca-municipale-di-bastia-5554944?at_medium=lien_RSS&at_locale=11",
    "source": "rcfm",
+   "rubrique": "politique",
    "date": "2026-10-23T08:32:30+00:00",
    "image": "https://www.ici.fr/pikapi/images/c70b5233-f362-44e8-a95d-54d42b827060/920x517?webp=false",
    "extrait": "La tradition de la toussaint en Corse , actuelle et ancienne , entre paganisme et religiosité,."
@@ -1303,6 +1453,7 @@
    "titre": "Deux incendies et quatre hectares de végétation détruits en Haute-Corse",
    "lien": "https://www.alta-frequenza.corsica/deux-incendies-et-quatre-hectares-de-vegetation-detruits-en-haute-corse",
    "source": "alta",
+   "rubrique": "faits-divers",
    "date": "2026-10-23T06:29:37+00:00",
    "image": "https://www.alta-frequenza.corsica/wp-content/uploads/Pompiers-feu-2B-Alta-1-768x432.jpg",
    "extrait": ""
@@ -1311,6 +1462,7 @@
    "titre": "Soutenance de thèse: Lamyaa MOUHDI (30 OCTOBRE 2026)",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11746",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-20T22:00:00+00:00",
    "image": "",
    "extrait": "Centre: UMR LISA Projet: TERRA Discipline et mention Sciences de Gestion et du Management Titre de la thèse: L'impact de la socialisation organisationnelle sur la construction de l'identité…"
@@ -1319,6 +1471,7 @@
    "titre": "Congresso del sindacato Nazionale dei Giornalisti Francesi :”Libertà di stampa in declino nel mondo”",
    "lien": "https://www.corsicaoggi.com/sito/congresso-del-sindacato-nazionale-dei-giornalisti-francesi-liberta-di-stampa-in-declino-nel-mondo/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-10-20T10:25:30+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/10/foto-groupe-Gleizes-150x150.png",
    "extrait": "Il Sindacato Nazionale dei Giornalisti Francesi (S.N.J) ha appena tenuto il suo 108º congresso in Provenza, nella città di Port-de-Bouc. È il più grande sindacato della professione in Francia ed…"
@@ -1327,6 +1480,7 @@
    "titre": "Le bourreau…",
    "lien": "https://www.linguanostra.com/blog/le-bourreau/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-10-20T06:00:14+00:00",
    "image": "",
    "extrait": "Je lisais il y a peu, un livre qui évoquait une dynastie de bourreaux. Un souvenir m’est revenu. Un soir alors que nous rentrions au village après un match à Furiani, l’ami qui conduisait la voiture…"
@@ -1335,6 +1489,7 @@
    "titre": "Québec : l’accession à l’indépendance n’est pas chose écrite",
    "lien": "https://www.journaldelacorse.corsica/articles/4820/quebec-laccession-a-lindependance-nest-pas-chose-ecrite",
    "source": "jdc",
+   "rubrique": "politique",
    "date": "2026-10-19T18:39:05+00:00",
    "image": "",
    "extrait": ""
@@ -1343,6 +1498,7 @@
    "titre": "L’hydrogène, une carte à jouer pour l’autonomie énergétique de la Corse",
    "lien": "https://www.journaldelacorse.corsica/articles/4821/lhydrogene-une-carte-a-jouer-pour-lautonomie-energetique-de-la-corse",
    "source": "jdc",
+   "rubrique": "politique",
    "date": "2026-10-19T18:37:53+00:00",
    "image": "",
    "extrait": ""
@@ -1351,6 +1507,7 @@
    "titre": "Trail canin. Une course main dans la… patte !",
    "lien": "https://www.journaldelacorse.corsica/articles/4822/trail-canin-une-course-main-dans-la-patte",
    "source": "jdc",
+   "rubrique": "sport",
    "date": "2026-10-19T18:36:55+00:00",
    "image": "",
    "extrait": ""
@@ -1359,6 +1516,7 @@
    "titre": "Gianni Carello : de l’ombre à la lumière des projecteurs",
    "lien": "https://www.journaldelacorse.corsica/articles/4824/gianni-carello-de-lombre-a-la-lumiere-des-projecteurs",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:35:49+00:00",
    "image": "",
    "extrait": ""
@@ -1367,6 +1525,7 @@
    "titre": "Football : Un nouveau club pour les quartiers sud de Bastia",
    "lien": "https://www.journaldelacorse.corsica/articles/4823/football-un-nouveau-club-pour-les-quartiers-sud-de-bastia",
    "source": "jdc",
+   "rubrique": "sport",
    "date": "2026-10-19T18:35:06+00:00",
    "image": "",
    "extrait": ""
@@ -1375,6 +1534,7 @@
    "titre": "Déchets : la vallée face à la ville",
    "lien": "https://www.journaldelacorse.corsica/articles/4825/dechets-la-vallee-face-a-la-ville",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:34:15+00:00",
    "image": "",
    "extrait": ""
@@ -1383,6 +1543,7 @@
    "titre": "Service public maritime : le consortium doit rester à sa juste place",
    "lien": "https://www.journaldelacorse.corsica/articles/4826/service-public-maritime-le-consortium-doit-rester-a-sa-juste-place",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:32:50+00:00",
    "image": "",
    "extrait": ""
@@ -1391,6 +1552,7 @@
    "titre": "I puttachji di Carl' Antò",
    "lien": "https://www.journaldelacorse.corsica/articles/4828/i-puttachji-di-carl-anto",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:31:40+00:00",
    "image": "",
    "extrait": ""
@@ -1399,6 +1561,7 @@
    "titre": "EVENTI E FATTI",
    "lien": "https://www.journaldelacorse.corsica/articles/4827/eventi-e-fatti",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:31:28+00:00",
    "image": "",
    "extrait": ""
@@ -1407,6 +1570,7 @@
    "titre": "Les langues dites « minoritaires » unies autour d’un même projet musical",
    "lien": "https://www.journaldelacorse.corsica/articles/4829/les-langues-dites-minoritaires-unies-autour-dun-meme-projet-musical",
    "source": "jdc",
+   "rubrique": "culture",
    "date": "2026-10-19T18:30:30+00:00",
    "image": "",
    "extrait": ""
@@ -1415,6 +1579,7 @@
    "titre": "L’Église et la catholicité en Corse",
    "lien": "https://www.journaldelacorse.corsica/articles/4830/leglise-et-la-catholicite-en-corse",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:29:34+00:00",
    "image": "",
    "extrait": ""
@@ -1423,6 +1588,7 @@
    "titre": "RN-LFI : la rue pourrait devenir l’enjeu de 2027",
    "lien": "https://www.journaldelacorse.corsica/articles/4819/rn-lfi-la-rue-pourrait-devenir-lenjeu-de-2027",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-19T18:28:44+00:00",
    "image": "",
    "extrait": ""
@@ -1431,6 +1597,7 @@
    "titre": "Invechjà Quì : pè invechjà bè in i so lochi cù a Cullettività di Corsica",
    "lien": "https://www.isula.corsica/Invechja-Qui-pe-invechja-be-in-i-so-lochi-cu-a-Cullettivita-di-Corsica_a6304.html",
    "source": "isula",
+   "rubrique": "politique",
    "date": "2026-10-19T07:06:00+00:00",
    "image": "https://www.isula.corsica/photo/art/default/98371190-68582118.jpg?v=1792054790",
    "extrait": "Avec Invechjà Quì , la Collectivité de Corse réunit et harmonise ses services d’accueil, d’information et d’accompagnement destinés aux personnes âgées de 60 ans et plus, à leurs proches aidants et…"
@@ -1439,6 +1606,7 @@
    "titre": "Conseil de l’IAE Corse - Ecole de Management et d’Economie",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11742",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-18T22:00:00+00:00",
    "image": "",
    "extrait": ""
@@ -1447,6 +1615,7 @@
    "titre": "Conseil d'école Paoli Tech",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11673",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-18T22:00:00+00:00",
    "image": "",
    "extrait": ""
@@ -1455,6 +1624,7 @@
    "titre": "Journée d’études : Historiographie de la périphérie, périphérie de l’historiographie en histoire ancienne - François Santoni",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11735",
    "source": "univ",
+   "rubrique": "culture",
    "date": "2026-10-18T22:00:00+00:00",
    "image": "",
    "extrait": "Dans le cadre de cette journée, l’historiographie de l’Antiquité sera appréhendée dans toute son ampleur chronologique, des historiographies antiques jusqu’à nos jours. Les périphéries géographiques…"
@@ -1463,6 +1633,7 @@
    "titre": "Déclaration des nominations équilibrées au titre de l’année 2025 de la Collectivité de Corse",
    "lien": "https://www.isula.corsica/Declaration-des-nominations-equilibrees-au-titre-de-l-annee-2025-de-la-Collectivite-de-Corse_a6305.html",
    "source": "isula",
+   "rubrique": "politique",
    "date": "2026-10-16T06:41:00+00:00",
    "image": "https://www.isula.corsica/photo/art/default/98398841-68614769.jpg?v=1792132878",
    "extrait": "En application de l'article L.132-5 du code général de la fonction publique, les régions, les communes et les établissements publics de coopération intercommunale de plus de 40 000 habitants doivent…"
@@ -1471,6 +1642,7 @@
    "titre": "Calinzana : Inaugurazione di l'estensione di u gruppu sculare \"Les Ignorantins\" - scola José Balestrini",
    "lien": "https://www.isula.corsica/Calinzana-Inaugurazione-di-l-estensione-di-u-gruppu-sculare-Les-Ignorantins-scola-Jose-Balestrini_a6300.html",
    "source": "isula",
+   "rubrique": "politique",
    "date": "2026-10-14T07:00:00+00:00",
    "image": "https://www.isula.corsica/photo/art/default/98359659-68572766.jpg?v=1791900480",
    "extrait": "La Collectivité de Corse est présente, aux côtés de Pierre Guidoni, maire de Calinzana, pour l’inauguration de l’extension du groupe scolaire « Les Ignorantins », école José Balestrini, le jeudi 15…"
@@ -1479,6 +1651,7 @@
    "titre": "Un œil dans l’histoire.",
    "lien": "https://www.linguanostra.com/blog/un-oeil-dans-lhistoire/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-10-13T05:52:24+00:00",
    "image": "",
    "extrait": "Voilà donc un héros. Pour les anglais en tous cas. Horatio Nelson. Lord Nelson, est sans nul doute le plus célèbre vice-amiral britannique de l’histoire. Considéré comme un héros national absolu au…"
@@ -1487,6 +1660,7 @@
    "titre": "Job étudiant pour la réalisation d'enquêtes !",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=10971",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-12T22:00:00+00:00",
    "image": "",
    "extrait": "L'Università recrute des contrats étudiants en appui à la réalisation d'enquêtes. Postes à pourvoir du 4 janvier au 30 avril 2027 - Durée du contrat : 4 mois | 40h/mois. Planning adapté à l'emploi du…"
@@ -1495,6 +1669,7 @@
    "titre": "Les Semaines d’Information sur la Santé Mentale",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11734",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-12T22:00:00+00:00",
    "image": "",
    "extrait": "Cari studienti, À l’occasion des Semaines d’Information sur la Santé Mentale (SISM), l’Université vous propose plusieurs temps de rencontre, d’échange et d’activités autour du bien-être et de la…"
@@ -1503,6 +1678,7 @@
    "titre": "Sport automobile : 56e Ronde de la Giraglia.",
    "lien": "https://www.journaldelacorse.corsica/articles/4809/sport-automobile-56e-ronde-de-la-giraglia",
    "source": "jdc",
+   "rubrique": "sport",
    "date": "2026-10-12T14:15:42+00:00",
    "image": "",
    "extrait": ""
@@ -1511,6 +1687,7 @@
    "titre": "L’ensauvagement des hommes sans Dieu...",
    "lien": "https://www.journaldelacorse.corsica/articles/4811/lensauvagement-des-hommes-sans-dieu",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:14:51+00:00",
    "image": "",
    "extrait": ""
@@ -1519,6 +1696,7 @@
    "titre": "CORSE-DU-SUD : LE PIÈGE DÉJOUÉ ?",
    "lien": "https://www.journaldelacorse.corsica/articles/4813/corse-du-sud-le-piege-dejoue",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:13:34+00:00",
    "image": "",
    "extrait": ""
@@ -1527,6 +1705,7 @@
    "titre": "Nationalistes basques et catalans : pragmatisme, réalisme, rupture et vulnérabilité",
    "lien": "https://www.journaldelacorse.corsica/articles/4812/nationalistes-basques-et-catalans-pragmatisme-realisme-rupture-et-vulnerabilite",
    "source": "jdc",
+   "rubrique": "politique",
    "date": "2026-10-12T14:12:46+00:00",
    "image": "",
    "extrait": ""
@@ -1535,6 +1714,7 @@
    "titre": "EVENTI E FATTI",
    "lien": "https://www.journaldelacorse.corsica/articles/4814/eventi-e-fatti",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:12:29+00:00",
    "image": "",
    "extrait": ""
@@ -1543,6 +1723,7 @@
    "titre": "I puttachji di Carl' Antò",
    "lien": "https://www.journaldelacorse.corsica/articles/4815/i-puttachji-di-carl-anto",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:11:40+00:00",
    "image": "",
    "extrait": ""
@@ -1551,6 +1732,7 @@
    "titre": "S’hè spentu Antone Ciosi",
    "lien": "https://www.journaldelacorse.corsica/articles/4816/she-spentu-antone-ciosi",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:10:50+00:00",
    "image": "",
    "extrait": ""
@@ -1559,6 +1741,7 @@
    "titre": "La France prise au piège à sept mois de la présidentielle",
    "lien": "https://www.journaldelacorse.corsica/articles/4817/la-france-prise-au-piege-a-sept-mois-de-la-presidentielle",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:09:45+00:00",
    "image": "",
    "extrait": ""
@@ -1567,6 +1750,7 @@
    "titre": "La vie chère, nouvelle ligne de fracture corse",
    "lien": "https://www.journaldelacorse.corsica/articles/4818/la-vie-chere-nouvelle-ligne-de-fracture-corse",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:08:05+00:00",
    "image": "",
    "extrait": ""
@@ -1575,6 +1759,7 @@
    "titre": "Lesia Manenti : la passion de la course à pied !",
    "lien": "https://www.journaldelacorse.corsica/articles/4808/lesia-manenti-la-passion-de-la-course-a-pied",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:07:13+00:00",
    "image": "",
    "extrait": ""
@@ -1583,6 +1768,7 @@
    "titre": "De jeunes ajacciens initiés au métier de coutelier",
    "lien": "https://www.journaldelacorse.corsica/articles/4806/de-jeunes-ajacciens-inities-au-metier-de-coutelier",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:06:03+00:00",
    "image": "",
    "extrait": ""
@@ -1591,6 +1777,7 @@
    "titre": "A parolla à i merri : Jean-Charles Orsucci (Bonifacio)",
    "lien": "https://www.journaldelacorse.corsica/articles/4807/a-parolla-a-i-merri-jean-charles-orsucci-bonifacio",
    "source": "jdc",
+   "rubrique": "autres",
    "date": "2026-10-12T14:05:09+00:00",
    "image": "",
    "extrait": ""
@@ -1599,6 +1786,7 @@
    "titre": "Communauté d’Agglomération de Bastia : des assises sportives pour une meilleure pratique",
    "lien": "https://www.journaldelacorse.corsica/articles/4810/communaute-dagglomeration-de-bastia-des-assises-sportives-pour-une-meilleure-pratique",
    "source": "jdc",
+   "rubrique": "sport",
    "date": "2026-10-12T14:04:18+00:00",
    "image": "",
    "extrait": ""
@@ -1607,6 +1795,7 @@
    "titre": "Présentation des travaux de réfection de la RD 84",
    "lien": "https://www.isula.corsica/Presentation-des-travaux-de-refection-de-la-RD-84_a6295.html",
    "source": "isula",
+   "rubrique": "politique",
    "date": "2026-10-09T08:00:00+00:00",
    "image": "https://www.isula.corsica/photo/art/default/98344683-68559079.jpg?v=1791788566",
    "extrait": "Jean-Félix Acquaviva, Conseiller exécutif en charge des transports et des infrastructures routières, a présenté le chantier de rénovation de la RD 84, le vendredi 9 octobre 2026, à 10h00, au col de…"
@@ -1615,6 +1804,7 @@
    "titre": "Colloque international organisé à l’occasion des 40 ans de la Banque de Données Langue Corse",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11601",
    "source": "univ",
+   "rubrique": "langue",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "La dialectologie à l’ère du numérique En 1986 naissait la Banque de Données Langue Corse (BDLC) qui s'est agrégée, dès sa création, à la réalisation du Nouvel Atlas Linguistique et ethnographique de…"
@@ -1623,6 +1813,7 @@
    "titre": "Conseil de laboratoire de l’UMR SPE",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11672",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "Conseil de laboratoire de l’UMR Sciences Pour l'Environnement"
@@ -1631,6 +1822,7 @@
    "titre": "Conseil de laboratoire de l’UMR LISA",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11674",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "Conseil de laboratoire de l’UMR Lieux Identités eSpaces Activités."
@@ -1639,6 +1831,7 @@
    "titre": "Semaines d’Information sur la Santé Mentale (SISM)",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11671",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "Cari studienti, À l’occasion des Semaines d’Information sur la Santé Mentale (SISM), l’Université vous propose plusieurs temps de rencontre, d’échange et d’activités autour du bien-être et de la…"
@@ -1647,6 +1840,7 @@
    "titre": "Réunion des Directeurs",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11675",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "Réunion des directeurs de composantes pédagogiques."
@@ -1655,6 +1849,7 @@
    "titre": "Formation spécialisée du Comité Social d’Administration d’Etablissement",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11676",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": "Formation spécialisée du Comité Social d’Administration d’Établissement"
@@ -1663,6 +1858,7 @@
    "titre": "Conseil de la faculté de droit et de science politique",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11677",
    "source": "univ",
+   "rubrique": "politique",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": ""
@@ -1671,6 +1867,7 @@
    "titre": "Conseil de la facultés des sciences, technique et santé",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11678",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": ""
@@ -1679,6 +1876,7 @@
    "titre": "Conseil de gestion de la Fondation",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11679",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-07T22:00:00+00:00",
    "image": "",
    "extrait": ""
@@ -1687,6 +1885,7 @@
    "titre": "Au revoir Antoine. Avvedeci ô Anto.",
    "lien": "https://www.linguanostra.com/blog/au-revoir-antoine-avvedeci-o-anto/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-10-06T05:51:19+00:00",
    "image": "",
    "extrait": "C’était un autre billet qui était prévu aujourd’hui. Mais la nouvelle de la mort d’Antoine Ciosi m’a fait de la peine et j’ai eu envie, tout de suite, de rappeler qu’il il était. On parle d’un…"
@@ -1695,6 +1894,7 @@
    "titre": "Bourses de mobilité internationale 2026/2027 (études et stages) : calendrier des commissions d'attribution",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=5813",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-05T22:00:00+00:00",
    "image": "",
    "extrait": "Vous avez un projet de séjour d’études ou de stage à l’international pour l’année universitaire 2026/2027 ? Retrouvez ci-dessous le calendrier des commissions d’attribution des bourses de mobilité…"
@@ -1703,6 +1903,7 @@
    "titre": "Lancement de l'appel à candidature du Premiu",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11651",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-10-04T22:00:00+00:00",
    "image": "",
    "extrait": "PREMIU 2026 Vous êtes étudiant, vous avez un projet de création d’entreprise, de reprise d’entreprise ou un projet associatif ? La Fondation, Pépite Corse et leurs partenaires vous soutiennent dans…"
@@ -1711,6 +1912,7 @@
    "titre": "Corsica: centinaia di manifestanti per strada a chiedere misure sociali e denunciare quelle del Governo",
    "lien": "https://www.corsicaoggi.com/sito/corsica-centinaia-di-manifestanti-per-strada-a-chiedere-misure-sociali-e-denunciare-quelle-del-governo/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-09-30T13:58:57+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/09/20260929_114337000_iOS-e1790776644565-150x150.jpg",
    "extrait": "In Corsica, come in altre regioni della Francia, si tennero manifestazioni per denunciare l’alto costo della vita, la precarietà e per chiedere misure a favore dei dipendenti, dei funzionari pubblici…"
@@ -1719,6 +1921,7 @@
    "titre": "La langouste !",
    "lien": "https://www.linguanostra.com/blog/la-langouste/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-09-29T06:13:03+00:00",
    "image": "",
    "extrait": "Parmi mes anciens, il se trouve que j’en avais un qui était pêcheur à Ajaccio. Je vous parle du début du siècle dernier. On parlait de lui de temps à autres mais je n’ai guère de souvenirs. Sauf un…"
@@ -1727,6 +1930,7 @@
    "titre": "Programmation I Fab'Attelli du mois d'octobre",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11627",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-09-28T22:00:00+00:00",
    "image": "",
    "extrait": "Découvrez la programmation du mois d'octobre au SILEX : escape game, flocage, impression 3D et sublimation au menu !"
@@ -1735,6 +1939,7 @@
    "titre": "[I Fab’Attelli] – Sublimation - Création d’un puzzle",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11630",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-09-27T22:00:00+00:00",
    "image": "",
    "extrait": "Apprenez à créer un puzzle à partir d’une image et repartez avec votre objet personnalisé. Mercredi 28 octobre 2026 : 17h30–19h Tarif : 10 € Infos : fablab@univ-corse.fr Inscriptions…"
@@ -1743,6 +1948,7 @@
    "titre": "Journée technique avocat - Projet PACTeS",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11625",
    "source": "univ",
+   "rubrique": "culture",
    "date": "2026-09-24T22:00:00+00:00",
    "image": "",
    "extrait": "La chambre d'agriculture en partenariat avec l'université de Corse dans le cadre du projet PACTeS organise la journée technique de l'avocat ce mardi 29 septembre à Vescovato à la Communauté de…"
@@ -1751,6 +1957,7 @@
    "titre": "Tours génoises, les sentinelles..",
    "lien": "https://www.linguanostra.com/blog/tours-genoises-les-sentinelles/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-09-22T06:07:31+00:00",
    "image": "",
    "extrait": ". La fondation du patrimoine, vient de faire connaître les cent projets départementaux qui seront soutenus. On y trouve deux édifices situés en Corse, les tours de Galeria et de Capu Neru à…"
@@ -1759,6 +1966,7 @@
    "titre": "Bourse Ange Tomasi: Exposition de restitution du travail photographique de Roisin Lambert",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11565",
    "source": "univ",
+   "rubrique": "culture",
    "date": "2026-09-21T22:00:00+00:00",
    "image": "",
    "extrait": "L’édition 2025 de la résidence Ange Tomasi a été coorganisée par la Fondation de l’Université de Corse, la direction du patrimoine de la Collectivité de Corse, l'Ambassade de France à Dublin et…"
@@ -1767,6 +1975,7 @@
    "titre": "Des russes en Corse..",
    "lien": "https://www.linguanostra.com/blog/des-russes-en-corse/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-09-15T05:53:54+00:00",
    "image": "",
    "extrait": "Au début des années 30, le ministère de l’intérieur demanda un recensement des étrangers vivant en Corse. Il y en avait à peu près vingt mille. En majorité italiens. Mais, ceux qui apparaissaient en…"
@@ -1775,6 +1984,7 @@
    "titre": "8 settembre in Corsica: Madonna di Lavasina e A Santa onorate",
    "lien": "https://www.corsicaoggi.com/sito/8-settembre-in-corsica-madonna-di-lavasina-e-a-santa-onorate/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-09-10T11:22:58+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/09/20260909_094556000_iOS-150x150.jpg",
    "extrait": "L’8 settembre è una data religiosa di particolare importanza in Corsica. L’isola celebra la natività della Vergine e in questo giorno le scuole sono chiuse. In diversi luoghi è onorata l’immagine…"
@@ -1783,6 +1993,7 @@
    "titre": "Vendetta…Vindetta..",
    "lien": "https://www.linguanostra.com/blog/vendettavindetta/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-09-08T05:51:52+00:00",
    "image": "",
    "extrait": "La vendetta, la vengeance, est un sujet particulier. Au-delà des fantasmes, il faut tout de suite savoir trois choses. La vendetta existait ailleurs qu’en Corse et pas partout dans l’île. Sa raison…"
@@ -1791,6 +2002,7 @@
    "titre": "Etudiants, déclarez votre situation sur RIESCITA",
    "lien": "https://actu.universita.corsica/plugins/actu/actu-front.php?id_site=24&id=11559",
    "source": "univ",
+   "rubrique": "autres",
    "date": "2026-09-03T22:00:00+00:00",
    "image": "",
    "extrait": "Étudiants, si vous êtes dans l’une des situations suivantes, vous devez effectuer votre déclaration sur l’application RIESCITA, accessible depuis le campus numérique, rubrique Scolarité : Salarié(e)…"
@@ -1799,6 +2011,7 @@
    "titre": "Les obsèques…",
    "lien": "https://www.linguanostra.com/blog/les-obseques/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-09-01T05:23:25+00:00",
    "image": "",
    "extrait": "Vous comme moi, hélas, avez connu des deuils. Ce sont des moments pénibles. Des douleurs intimes qui appartiennent à chacun et dont je ne parlerai pas ici. Mon sujet, c’est celui des rites…"
@@ -1807,6 +2020,7 @@
    "titre": "Pesaro: il sipario è caduto sul ROF. È stato ancora un successo quest’anno",
    "lien": "https://www.corsicaoggi.com/sito/pesaro-il-sipario-e-caduto-sul-rof-e-stato-ancora-un-successo-questanno/",
    "source": "oggi",
+   "rubrique": "culture",
    "date": "2026-08-30T08:58:55+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/08/20260812_123014-150x150.jpg",
    "extrait": "Il sipario è calato per la 47ª edizione del Rossini Opera Festival di Pesaro. Ancora una volta, la città in cui nacque Gioachino Rossini ha ospitato con successo uno dei festival d’opera più belli e…"
@@ -1815,6 +2029,7 @@
    "titre": "Monacia d’Orezza: San Bartuli celebrato a un’altitudine di 1000 metri dai fedeli provenienti dalle cinque Pieve di Castagniccia.",
    "lien": "https://www.corsicaoggi.com/sito/monacia-dorezza-san-bartuli-celebrato-a-unaltitudine-di-1000-metri-dai-fedeli-provenienti-dalle-quattro-pieve-di-castagniccia/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-08-25T09:32:30+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/08/7d607879-b6d6-48cd-8bc2-d37e03663a66-150x150.jpg",
    "extrait": "Il 24 agosto, non appena il sole ha puntato i suoi raggi sul Monte Zuccarello e sul Monte Castellu Mozzu, il passo San Bartuli, che si trova al centro delle due montagne, è stato avvolto da una luce…"
@@ -1823,6 +2038,7 @@
    "titre": "Lonzu, coppa mais pas que..",
    "lien": "https://www.linguanostra.com/blog/lonzu-coppa-mais-pas-que/",
    "source": "ln",
+   "rubrique": "langue",
    "date": "2026-08-25T06:16:35+00:00",
    "image": "",
    "extrait": "C’est bientôt la fin de l’été. Les touristes avant de repartir cherchent le souvenir ! Ça tombe bien. Les boutiques et supermarchés regorgent de charcuterie. Dans les épiceries sérieuses, mais il…"
@@ -1831,6 +2047,7 @@
    "titre": "Festa di Santa Maria: Folle di fedeli nelle chiese della Corsica e caldo opprimente",
    "lien": "https://www.corsicaoggi.com/sito/festa-di-santa-maria-folle-di-fedeli-nelle-chiese-della-corsica-e-caldo-opprimente/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-08-17T08:05:47+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/08/PHOTO-2026-08-16-16-51-53-2-150x150.jpg",
    "extrait": "A rinfriscata di Santa Maria non è avvenuta questo 15 agosto. Fu sotto un caldo opprimente che i corsi onorarono l’Assunzione. Sebbene solo 5 villaggi portino il nome di Santa Maria, tutti i…"
@@ -1839,6 +2056,7 @@
    "titre": "Il FLNC torna a parlare dalla clandestinità: sedici azioni rivendicate e un duro messaggio politico",
    "lien": "https://www.corsicaoggi.com/sito/il-flnc-torna-a-parlare-dalla-clandestinita-sedici-azioni-rivendicate-e-un-duro-messaggio-politico/",
    "source": "oggi",
+   "rubrique": "politique",
    "date": "2026-08-06T13:00:02+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/08/27-FLNC-AFPGetty-150x150.jpg",
    "extrait": "L’organizzazione clandestina rivendica sedici azioni compiute nell’ultimo anno e interviene nel dibattito sull’autonomia dell’isola. Nel mirino la speculazione immobiliare, le seconde case e il…"
@@ -1847,6 +2065,7 @@
    "titre": "Corsica, l’altra faccia dell’isola: tra povertà, caro vita e lavoro stagionale",
    "lien": "https://www.corsicaoggi.com/sito/corsica-laltra-faccia-dellisola-tra-poverta-caro-vita-e-lavoro-stagionale/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-28T12:00:35+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/a37cbf08-21d4-4729-b77c-9a747d9079fb-150x150.png",
    "extrait": "L’isola delle spiagge da cartolina, dei porti turistici e delle montagne incontaminate nasconde una delle realtà sociali più difficili della Francia. Tra caro vita, lavoro stagionale e isolamento…"
@@ -1855,6 +2074,7 @@
    "titre": "A Notte di a Memoria: Migliaia di Bastiesi al punto d’incontro per questo momento storico della città genovese",
    "lien": "https://www.corsicaoggi.com/sito/a-notte-di-a-memoria-migliaia-di-bastiesi-al-punto-dincontro-per-questo-momento-storico-della-citta-genovese/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-27T08:38:25+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/PHOTO-2026-07-26-21-27-21-150x150.jpg",
    "extrait": "La 39ª edizione di “A notte di a memoria” fu un grande successo. Migliaia di bastiesi e molti turisti si erano radunati lungo il percorso della storica parata così come al vecchio porto per assistere…"
@@ -1863,6 +2083,7 @@
    "titre": "Incendio nella valle della Restonica, evacuato un campeggio e chiusa la valle",
    "lien": "https://www.corsicaoggi.com/sito/incendio-nella-valle-della-restonica-evacuato-un-campeggio-e-chiusa-la-valle/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-25T12:00:19+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/Restonica-valle-150x150.jpg",
    "extrait": "Continua a destare forte preoccupazione il vasto incendio che da diversi giorni interessa la valle della Restonica, nel cuore montuoso della Corsica. Il rogo, alimentato dalla vegetazione secca…"
@@ -1871,6 +2092,7 @@
    "titre": "Corsica, i vigili del fuoco denunciano la carenza di Canadair: è scontro con Parigi",
    "lien": "https://www.corsicaoggi.com/sito/corsica-i-vigili-del-fuoco-denunciano-la-carenza-di-canadair-e-scontro-con-parigi/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-23T12:00:38+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/canadair-150x150.png",
    "extrait": "Gli incendi che hanno colpito l’Alta Corsica a metà luglio non hanno soltanto devastato centinaia di ettari di vegetazione. Hanno anche riacceso una polemica che da anni divide l’isola e lo Stato…"
@@ -1879,6 +2101,7 @@
    "titre": "Bastia, la stretta sugli Airbnb dà i primi risultati: 233 alloggi tornano sul mercato degli affitti",
    "lien": "https://www.corsicaoggi.com/sito/bastia-la-stretta-sugli-airbnb-da-i-primi-risultati-233-alloggi-tornano-sul-mercato-degli-affitti/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-14T12:00:26+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/Port_of_Bastia_Corsica_France_52723300062-150x150.jpg",
    "extrait": "Il Comune presenta il bilancio delle misure introdotte nel 2023. Aumenta l’offerta di locazioni annuali e nella Cittadella calano i prezzi delle abitazioni. Simeoni: «Non vogliamo vietare gli Airbnb…"
@@ -1887,6 +2110,7 @@
    "titre": "Eolico offshore tra Corsica e Toscana, arriva il no del Parco naturale di Capo Corso",
    "lien": "https://www.corsicaoggi.com/sito/eolico-offshore-tra-corsica-e-toscana-arriva-il-no-del-parco-di-capo-corso/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-09T12:00:21+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/eolico-150x150.png",
    "extrait": "Il progetto del parco eolico offshore galleggiante ATIS, destinato a sorgere nel mar Tirreno tra la Corsica e l’Arcipelago Toscano, incontra un nuovo ostacolo. Il Consiglio di gestione del Parco…"
@@ -1895,6 +2119,7 @@
    "titre": "Ligue 3, il Bastia riparte: DNCG superata, debutto con Le Puy a porte chiuse e un solo obiettivo, la promozione",
    "lien": "https://www.corsicaoggi.com/sito/ligue-3-il-bastia-riparte-dncg-superata-debutto-con-le-puy-a-porte-chiuse-e-un-solo-obiettivo-la-promozione/",
    "source": "oggi",
+   "rubrique": "sport",
    "date": "2026-07-08T12:00:09+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/ligue-3-bastia-150x150.png",
    "extrait": "Il via libera della DNCG, un mercato all’insegna della sostenibilità e un calendario che propone subito Le Puy-en-Velay, Aubagne e Versailles. Il Bastia inaugura la nuova Ligue 3 con l’obiettivo di…"
@@ -1903,6 +2128,7 @@
    "titre": "Corsica del Sud in allerta siccità: scattano le restrizioni sull’uso dell’acqua fino al 31 ottobre",
    "lien": "https://www.corsicaoggi.com/sito/corsica-del-sud-in-allerta-siccita-scattano-le-restrizioni-sulluso-dellacqua-fino-al-31-ottobre/",
    "source": "oggi",
+   "rubrique": "politique",
    "date": "2026-07-06T13:00:49+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/c217e3ad-5f5e-461f-90ee-992530971e92-150x150.png",
    "extrait": "La Corsica del Sud entra ufficialmente in stato di allerta siccità. Con un decreto firmato il 3 luglio 2026, il prefetto Eric Jalon ha disposto il passaggio dell’intero dipartimento dal livello di…"
@@ -1911,6 +2137,7 @@
    "titre": "Pasquale Paoli ispirò la Costituzione degli Stati Uniti? Lo storico dibattito si riaccende",
    "lien": "https://www.corsicaoggi.com/sito/pasquale-paoli-ispiro-la-costituzione-degli-stati-uniti-lo-storico-dibattito-si-riaccende/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-05T13:00:44+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/4727b7ee-5056-4839-91f5-df15d102e763-150x150.png",
    "extrait": "Nel 250° anniversario dell’indipedenza degli Stati Uniti, lo Smithsonian riporta l’attenzione sulla figura del generale corso. Non esistono prove di un’influenza diretta sulla Costituzione americana…"
@@ -1919,6 +2146,7 @@
    "titre": "Omicidio della studentessa Chloé Aldrovandi: tre nuovi indagati, salgono a sei le persone coinvolte nell’inchiesta",
    "lien": "https://www.corsicaoggi.com/sito/omicidio-della-studentessa-chloe-aldrovandi-tre-nuovi-indagati-salgono-a-sei-le-persone-coinvolte-nellinchiesta/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-07-04T12:00:34+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/chloe-150x150.png",
    "extrait": "A quasi un anno e mezzo dall’omicidio di Chloé Aldrovandi, la studentessa di 18 anni uccisa per errore il 15 febbraio 2025 a Ponte-Leccia (Alta Corsica), l’inchiesta della Procura interregionale…"
@@ -1927,6 +2155,7 @@
    "titre": "Transizione ecologica: la Corsica come laboratorio ambientale. Riunione COP 2026 a Bastia.",
    "lien": "https://www.corsicaoggi.com/sito/transizione-ecologica-la-corsica-come-laboratorio-ambientale-riunione-cop-2026-a-bastia/",
    "source": "oggi",
+   "rubrique": "culture",
    "date": "2026-07-02T14:05:17+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/07/20260702_102746-150x150.jpg",
    "extrait": "Mentre l’ondata di caldo continua a infuriare sulla Corsica, nonostante una pioggia rapida, la terza edizione della COP si è tenuta a Bastia, nei locali del centro culturale Alboru. Hanno partecipato…"
@@ -1935,6 +2164,7 @@
    "titre": "Accordo tra Stato e Collettività per salvare Scola Corsa: garantita la riapertura a settembre",
    "lien": "https://www.corsicaoggi.com/sito/accordo-tra-stato-e-collettivita-per-salvare-scola-corsa-garantita-la-riapertura-a-settembre/",
    "source": "oggi",
+   "rubrique": "langue",
    "date": "2026-06-29T06:00:32+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/scolacorsa-619564693_1247406170856341_6438628442647037627_n-1-e1781286560499-150x150.webp",
    "extrait": "Dopo settimane di incertezza, arriva una svolta per Scola Corsa, la rete di scuole immersive in lingua corsa. Al termine di una lunga riunione durata oltre nove ore, lo Stato francese e la…"
@@ -1943,6 +2173,7 @@
    "titre": "Il progetto di autonomia alla prova del Senato",
    "lien": "https://www.corsicaoggi.com/sito/corsica-il-progetto-di-autonomia-supera-il-primo-ostacolo-ora-la-prova-del-senato/",
    "source": "oggi",
+   "rubrique": "politique",
    "date": "2026-06-28T12:00:07+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/Examen_du_projet_de_loi_sur_lenseignement_superieur_et_la_recherche_a_lAssemblee_Nationale_2-150x150.jpg",
    "extrait": "L’approvazione del progetto di revisione costituzionale da parte dell’Assemblea nazionale segna un momento che fino a pochi anni fa sarebbe sembrato impensabile. Per oltre due secoli la Francia ha…"
@@ -1951,6 +2182,7 @@
    "titre": "Autonomia della Corsica: il voto a Parigi accende la battaglia politica tra i partiti",
    "lien": "https://www.corsicaoggi.com/sito/autonomia-della-corsica-il-voto-a-parigi-accende-la-battaglia-politica-tra-i-partiti/",
    "source": "oggi",
+   "rubrique": "politique",
    "date": "2026-06-28T06:33:22+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/autonomia-simeoni-20260623-Screenshot_20260628_013427-150x150.png",
    "extrait": "PARIGI / AJACCIO – L’approvazione in prima lettura del progetto di legge costituzionale per l’autonomia della Corsica (217 voti favorevoli su 537 presenti) ha formalmente aperto una nuova era…"
@@ -1959,6 +2191,7 @@
    "titre": "Corsica, al via il Brevet 2026: quasi 3.400 studenti alle prese con un esame rinnovato",
    "lien": "https://www.corsicaoggi.com/sito/corsica-al-via-il-brevet-2026-quasi-3-400-studenti-alle-prese-con-un-esame-rinnovato/",
    "source": "oggi",
+   "rubrique": "autres",
    "date": "2026-06-27T12:00:03+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/60e57b2f-da02-4f50-b1a9-cc3a0473d9b8-150x150.png",
    "extrait": "Dopo gli esami di maturità, tocca ora agli studenti delle scuole medie affrontare l’appuntamento più importante dell’anno scolastico. Da venerdì 26 giugno saranno 3.358 gli alunni corsi impegnati…"
@@ -1967,6 +2200,7 @@
    "titre": "Corsica più vicina all’Italia: arrivano i collegamenti veloci della nuova compagnia Cors’Express",
    "lien": "https://www.corsicaoggi.com/sito/corsica-piu-vicina-all-italia-arrivano-i-collegamenti-veloci-della-nuova-compagnia-corsexpress/",
    "source": "oggi",
+   "rubrique": "sport",
    "date": "2026-06-25T12:00:43+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/CorsExpress-150x150.png",
    "extrait": "Una nuova compagnia marittima si prepara a entrare nel mercato dei collegamenti tra Italia e Corsica. Si chiama Cors’Express ed è una startup fondata nel 2026 a Bastia dall’imprenditore corso Vincent…"
@@ -1975,6 +2209,7 @@
    "titre": "Svolta storica a Parigi: l’Assemblea Nazionale approva il principio dell’autonomia per la Corsica",
    "lien": "https://www.corsicaoggi.com/sito/svolta-storica-a-parigi-lassemblea-nazionale-approva-il-principio-dellautonomia-per-la-corsica/",
    "source": "oggi",
+   "rubrique": "politique",
    "date": "2026-06-24T08:38:47+00:00",
    "image": "https://www.corsicaoggi.com/sito/wp-content/uploads/2026/06/autonomia-corsica-voto-727498075_3957208957748453_7689402020800281553_n-e1782556967962-150x150.jpg",
    "extrait": "PARIGI / AJACCIO – La Corsica compie un passo storico verso una svolta istituzionale senza precedenti. L’Assemblea Nazionale francese ha dato il via libera al principio dell’autonomia per l’isola…"
